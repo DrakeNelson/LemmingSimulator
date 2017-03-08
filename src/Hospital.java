@@ -126,7 +126,6 @@ class Hospital {
             return type;
         }
 
-        //rng on the arrival event not yet implemented over distrobution
         void execute() {
             switch (type) {
                 case ARRIVAL:
@@ -145,8 +144,7 @@ class Hospital {
                     patientQueue.add(patient);
                     System.out.println("patient arrived at " + patient.arrivalTime + " time " + patient+"with"+patient.getAilment());
                     hospitalEventQueue.add(new HospitalEvent(patient.getDeathTime(), Event_Type.DEATH, patient));
-                    //todo implement distrobution
-                    hospitalEventQueue.add(new HospitalEvent(1200));
+                    hospitalEventQueue.add(new HospitalEvent(timeUntilNextArrival()));
                     break;
                 case DEATH:
                     patientQueue.remove(patient);
@@ -163,21 +161,7 @@ class Hospital {
                         treatmentCount++;
                         Patient treatmentPatient = patientQueue.poll();
                         if (treatmentPatient.isAlive) {
-                            int length = 0;
-                            switch (treatmentPatient.getAilment()) {
-                                case BLEED:
-                                    length = 60 * 60 / 6;
-                                    break;
-                                case HEART:
-                                    length = 60 * 60 / 2;
-                                    break;
-                                case GAS:
-                                    length = 60 * 60 / 4;
-                                    break;
-                                default:
-                                    System.err.println("error in treatment case");
-                                    break;
-                            }
+                            int length = getTreatmentTime(treatmentPatient.getAilment());
                             treatmentPatient.treatPatient(time, length);
                             clock=time += length;
                             hospitalEventQueue.add(new HospitalEvent(clock, Event_Type.TREATMENT));
@@ -191,6 +175,32 @@ class Hospital {
                     System.err.println("bugs bug bugs HospitalEvent execute()");
                     break;
             }
+        }
+
+        private int getTreatmentTime(Ailment ailment){
+            //todo implement negative exponential distribution
+            int length=0;
+            switch (ailment) {
+                case BLEED:
+                    length = 60 * 60 / 6;
+                    break;
+                case HEART:
+                    length = 60 * 60 / 2;
+                    break;
+                case GAS:
+                    length = 60 * 60 / 4;
+                    break;
+                default:
+                    System.err.println("error in treatment case");
+                    break;
+            }
+            return length;
+        }
+
+        //todo implement poission distrobution
+        private int timeUntilNextArrival() {
+            int result = 20*60;
+            return result;
         }
     }
 }

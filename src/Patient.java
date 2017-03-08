@@ -25,21 +25,13 @@ public class Patient {
 
     //todo implement distrobution
     private void setAilment() {
-        int x = ((int) (Math.random() * 3));//Ailment.HEART;
-        switch (x) {
-            case 0:
-                ailment = Ailment.HEART;
-                break;
-            case 1:
-                ailment = Ailment.BLEED;
-                break;
-            case 2:
-                ailment = Ailment.GAS;
-                break;
-            default:
-                System.err.print("bugs on bugs on bugs");
-                break;
-        }
+        int x = ((int) (Math.random() * 10));
+        if(x<3)
+            ailment = Ailment.HEART;
+        else if(x<5)
+            ailment = Ailment.BLEED;
+        else        ailment = Ailment.GAS;
+
     }
 
     //todo implement deviation
