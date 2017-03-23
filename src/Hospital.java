@@ -13,18 +13,19 @@ import java.util.PriorityQueue;
 
 
 class Hospital {
-    Hospital(int hours) {
+    Hospital(int hours,int numOfDoctors) {
         clock = 0;
         END_SIMULATION = hours * 60 * 60;
         arrivalCount = 0;
         deathCount = 0;
         treatmentCount = 0;
+        doctorCount=numOfDoctors;
     }
-
+private int doctorCount;
     void printStats() {
         System.out.println(arrivalCount + " arrived \n" + deathCount + " died\n" + treatmentCount + " treated\n");
         int x=0;
-        for (Patient p: patientQueue) {
+        for (Patient ignored : patientQueue) {
             x++;
         }
         System.out.println(x +"patients left in the hospital when shut down");
@@ -176,19 +177,20 @@ class Hospital {
                     break;
             }
         }
-
         private int getTreatmentTime(Ailment ailment){
             //todo implement negative exponential distribution
+           double uniformRandomNumber = Math.random();
+
             int length=0;
             switch (ailment) {
                 case BLEED:
-                    length = 60 * 60 / 6;
+                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-6*doctorCount));
                     break;
                 case HEART:
-                    length = 60 * 60 / 2;
+                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-2*doctorCount));
                     break;
                 case GAS:
-                    length = 60 * 60 / 4;
+                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-4*doctorCount));
                     break;
                 default:
                     System.err.println("error in treatment case");
@@ -197,10 +199,10 @@ class Hospital {
             return length;
         }
 
-        //todo implement poission distrobution
+        //use poisson distro for next arrival
         private int timeUntilNextArrival() {
-            int result = 20*60;
-            return result;
+            double nextArrival = Math.log(1 - Math.random())/-3.0;
+            return (int)(nextArrival*3600);
         }
     }
 }

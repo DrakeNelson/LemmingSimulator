@@ -16,8 +16,14 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Hospital hospital=new Hospital(100);
+        Hospital hospital=new Hospital(100,1);
         hospital.runSimulation();
         hospital.printStats();
+
+       hospital=new Hospital(100,2);
+       hospital.runSimulation();
+       hospital.printStats();
+
+
     }
 }

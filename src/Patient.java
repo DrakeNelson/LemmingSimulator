@@ -34,22 +34,35 @@ public class Patient {
 
     }
 
-    //todo implement deviation
+    //use standard deviation for the times people die
     private void setDeathTime() {
+        double time = 0.0;
+        for(int i = 0; i < 12; i++){
+            time += Math.random();
+        }
+        time = time - 6;
+        double mu=0.0;
+        double sigma=0.0;
+
         switch (ailment) {
             case BLEED:
-                deathTime = arrivalTime + 65 * 60;
+                mu = 65.0*60;
+                sigma = 1.0/3;
                 break;
             case GAS:
-                deathTime = arrivalTime + 80 * 60;
+                mu = 80.0*60;
+                sigma = 1.0/2;
                 break;
             case HEART:
-                deathTime = arrivalTime + 35 * 60;
+                mu = 35.0*60;
+                sigma = 1.0/6;
                 break;
             default:
                 System.err.println("case bug in lifetime in waiting line");
                 break;
         }
+        time = (sigma*time + mu);
+        deathTime=arrivalTime+(int)time;
     }
 
     Ailment getAilment() {
