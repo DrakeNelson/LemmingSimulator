@@ -13,22 +13,24 @@ import java.util.PriorityQueue;
 
 
 class Hospital {
-    Hospital(int hours,int numOfDoctors) {
+    Hospital(int hours, int numOfDoctors) {
         clock = 0;
         END_SIMULATION = hours * 60 * 60;
         arrivalCount = 0;
         deathCount = 0;
         treatmentCount = 0;
-        doctorCount=numOfDoctors;
+        doctorCount = numOfDoctors;
     }
-private int doctorCount;
+
+    private int doctorCount;
+
     void printStats() {
         System.out.println(arrivalCount + " arrived \n" + deathCount + " died\n" + treatmentCount + " treated\n");
-        int x=0;
+        int x = 0;
         for (Patient ignored : patientQueue) {
             x++;
         }
-        System.out.println(x +"patients left in the hospital when shut down");
+        System.out.println(x + "patients left in the hospital when shut down");
     }
 
     void runSimulation() {
@@ -62,11 +64,11 @@ private int doctorCount;
                 } else {
                     if (x.arrivalTime > y.arrivalTime) {
                         return -1;
-                    }else{
+                    } else {
                         return 1;
                     }
                 }
-            } else{
+            } else {
                 return 1;
             }
         }
@@ -131,19 +133,19 @@ private int doctorCount;
             switch (type) {
                 case ARRIVAL:
                     clock = time;
-                    boolean nextScheduled=false;
-                    for (HospitalEvent e:hospitalEventQueue) {
-                        if(e.getType()==Event_Type.TREATMENT){
-                            nextScheduled=true;
+                    boolean nextScheduled = false;
+                    for (HospitalEvent e : hospitalEventQueue) {
+                        if (e.getType() == Event_Type.TREATMENT) {
+                            nextScheduled = true;
                         }
                     }
-                    if (patientQueue.isEmpty()&&!nextScheduled) {
+                    if (patientQueue.isEmpty() && !nextScheduled) {
                         hospitalEventQueue.add(new HospitalEvent(clock, Event_Type.TREATMENT));
                     }
                     arrivalCount++;
                     patient = new Patient(clock, arrivalCount);
                     patientQueue.add(patient);
-                    System.out.println("patient arrived at " + patient.arrivalTime + " time " + patient+"with"+patient.getAilment());
+                    //testing line: System.out.println("patient arrived at " + patient.arrivalTime + " time " + patient+"with"+patient.getAilment());
                     hospitalEventQueue.add(new HospitalEvent(patient.getDeathTime(), Event_Type.DEATH, patient));
                     hospitalEventQueue.add(new HospitalEvent(timeUntilNextArrival()));
                     break;
@@ -151,6 +153,7 @@ private int doctorCount;
                     patientQueue.remove(patient);
                     if (!patient.wasTreated) {
                         patient.killPatient(time);
+                        //todo counts/stats
                         System.out.println("patient has died RIP: " + patient);
                         deathCount++;
                     }
@@ -164,7 +167,7 @@ private int doctorCount;
                         if (treatmentPatient.isAlive) {
                             int length = getTreatmentTime(treatmentPatient.getAilment());
                             treatmentPatient.treatPatient(time, length);
-                            clock=time += length;
+                            clock = time += length;
                             hospitalEventQueue.add(new HospitalEvent(clock, Event_Type.TREATMENT));
                             System.out.println("treated a patient: " + treatmentPatient);
                         } else {
@@ -177,20 +180,21 @@ private int doctorCount;
                     break;
             }
         }
-        private int getTreatmentTime(Ailment ailment){
-            //todo implement negative exponential distribution
-           double uniformRandomNumber = Math.random();
 
-            int length=0;
+        //uses negative exponential distrobution
+        private int getTreatmentTime(Ailment ailment) {
+            double uniformRandomNumber = Math.random();
+
+            int length = 0;
             switch (ailment) {
                 case BLEED:
-                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-6*doctorCount));
+                    length = (int) (3600 * Math.log(1 - uniformRandomNumber) / (-6 * doctorCount));
                     break;
                 case HEART:
-                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-2*doctorCount));
+                    length = (int) (3600 * Math.log(1 - uniformRandomNumber) / (-2 * doctorCount));
                     break;
                 case GAS:
-                    length = (int)(3600*Math.log(1 - uniformRandomNumber)/(-4*doctorCount));
+                    length = (int) (3600 * Math.log(1 - uniformRandomNumber) / (-4 * doctorCount));
                     break;
                 default:
                     System.err.println("error in treatment case");
@@ -201,8 +205,12 @@ private int doctorCount;
 
         //use poisson distro for next arrival
         private int timeUntilNextArrival() {
-            double nextArrival = Math.log(1 - Math.random())/-3.0;
-            return (int)(nextArrival*3600);
+            double nextArrival = Math.log(1 - Math.random()) / -3.0;
+            return (int) (nextArrival * 3600);
         }
+    }
+
+    private class simulationSummary {
+        //death counts per
     }
 }

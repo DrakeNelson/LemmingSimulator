@@ -23,7 +23,7 @@ public class Patient {
         setDeathTime();
     }
 
-    //todo implement distrobution
+    //patient ailment is uniformly distributed
     private void setAilment() {
         int x = ((int) (Math.random() * 10));
         if(x<3)
