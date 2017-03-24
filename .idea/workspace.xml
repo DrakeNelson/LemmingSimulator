@@ -733,7 +733,7 @@
       <workItem from="1488741949629" duration="18967000" />
       <workItem from="1488998047119" duration="5310000" />
       <workItem from="1490300478862" duration="5241000" />
-      <workItem from="1490316406578" duration="594000" />
+      <workItem from="1490316406578" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="Initial repo for the Great American Hospital Simulation">
       <created>1488742121377</created>
@@ -770,14 +770,21 @@
       <option name="project" value="LOCAL" />
       <updated>1490305649544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="simulator is running on averages&#10;-todo: implement different distrobutions on the rngs">
+      <created>1490317380669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490317380669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30112000" />
+    <option name="totallyTimeSpent" value="30138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
