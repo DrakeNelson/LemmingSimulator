@@ -8,7 +8,9 @@
  a queue of events with timestamps/type
  */
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.PriorityQueue;
 
 
@@ -17,20 +19,23 @@ class Hospital {
         clock = 0;
         END_SIMULATION = hours * 60 * 60;
         arrivalCount = 0;
-        deathCount = 0;
-        treatmentCount = 0;
         doctorCount = numOfDoctors;
+        stats = new simulationSummary();
     }
 
+
+    private simulationSummary stats;
     private int doctorCount;
 
-    void printStats() {
-        System.out.println(arrivalCount + " arrived \n" + deathCount + " died\n" + treatmentCount + " treated\n");
+    void printSimulation() {
+        System.out.println("THE GREAT AMERICAN MEDICAL SYSTEM SIMULATION");
+        System.out.println("This run is for " + doctorCount + " doctors on staff\n");
         int x = 0;
         for (Patient ignored : patientQueue) {
             x++;
         }
-        System.out.println(x + "patients left in the hospital when shut down");
+        stats.printStats();
+        System.out.println(x + " patients left in the hospital when shut down\n");
     }
 
     void runSimulation() {
@@ -40,14 +45,13 @@ class Hospital {
             HospitalEvent event = hospitalEventQueue.poll();
             event.execute();
         }
+        stats.setAverages();
     }
 
     private int clock = 0;//every second of the simulation
     private final int END_SIMULATION;// = 360000;//seconds = 100 hours
 
     private int arrivalCount = 0;//count the number of patients that arrive at the hospital
-    private int deathCount = 0;//count the number of patients that die in the simulation
-    private int treatmentCount = 0;//count the number of patients that are treated in the simulation
 
     //:patintQueue is a que with a special comparator to maintain a sort
     private PriorityQueue<Patient> patientQueue = new PriorityQueue<>(10, new PatientComparator());
@@ -153,23 +157,22 @@ class Hospital {
                     patientQueue.remove(patient);
                     if (!patient.wasTreated) {
                         patient.killPatient(time);
-                        //todo counts/stats
-                        System.out.println("patient has died RIP: " + patient);
-                        deathCount++;
+                        stats.addDeath(patient);
+                        // testing print line System.out.println("patient has died RIP: " + patient);
                     }
                     break;
                 case TREATMENT:
                     if (patientQueue.isEmpty()) {
                         break;
                     } else {
-                        treatmentCount++;
                         Patient treatmentPatient = patientQueue.poll();
                         if (treatmentPatient.isAlive) {
                             int length = getTreatmentTime(treatmentPatient.getAilment());
                             treatmentPatient.treatPatient(time, length);
                             clock = time += length;
                             hospitalEventQueue.add(new HospitalEvent(clock, Event_Type.TREATMENT));
-                            System.out.println("treated a patient: " + treatmentPatient);
+                            // testing line needs removed System.out.println("treated a patient: " + treatmentPatient);
+                            stats.treatPatient(treatmentPatient);
                         } else {
                             System.err.println("tried to treat a dead patient");
                         }
@@ -211,6 +214,103 @@ class Hospital {
     }
 
     private class simulationSummary {
-        //death counts per
+        //death counts per ailment and total
+        int deathsByGas, deathsByHeart, deathsByBlood, totalDeaths;
+        //treat counts per ailment and total
+        int treatedGas, treatedHeart, treatedBlood, treatedTotal;
+        //average time in que per ailment and total
+        int avgTimeInQueGas, avgTimeInQueHeart, avgTimeInQueBlood, avgTimeInQueTotal;
+        //total time in hospital per ailment and total
+        int totalGasTimeInQue = 0, totalBloodTimeInQue = 0, totalHeartTimeInQue = 0, totalTimeInQue = 0;
+
+        //lists of patients
+        private List<Patient> deadPatientList;
+        private List<Patient> treatedPatientList;
+
+        simulationSummary() {
+            deathsByGas = 0;
+            deathsByHeart = 0;
+            deathsByBlood = 0;
+            totalDeaths = 0;
+            treatedGas = 0;
+            treatedHeart = 0;
+            treatedBlood = 0;
+            treatedTotal = 0;
+            avgTimeInQueGas = 0;
+            avgTimeInQueHeart = 0;
+            avgTimeInQueBlood = 0;
+            avgTimeInQueTotal = 0;
+            deadPatientList = new ArrayList<>();
+            treatedPatientList = new ArrayList<>();
+        }
+
+        void addDeath(Patient patient) {
+            int timeInQue = patient.deathTime - patient.arrivalTime;
+            switch (patient.getAilment()) {
+                case BLEED:
+                    deathsByBlood++;
+                    totalBloodTimeInQue += timeInQue;
+                    break;
+                case HEART:
+                    deathsByHeart++;
+                    totalHeartTimeInQue += timeInQue;
+                    break;
+                case GAS:
+                    deathsByGas++;
+                    totalGasTimeInQue += timeInQue;
+                    break;
+                default:
+                    System.out.println("death error");
+                    break;
+            }
+            totalDeaths++;
+            totalTimeInQue += timeInQue;
+            deadPatientList.add(patient);
+        }
+
+        private void treatPatient(Patient patient) {
+            int timeInQue = patient.treatmentTime - patient.arrivalTime;
+            switch (patient.getAilment()) {
+                case BLEED:
+                    treatedBlood++;
+                    totalBloodTimeInQue += timeInQue;
+                    break;
+                case HEART:
+                    treatedHeart++;
+                    totalHeartTimeInQue += timeInQue;
+                    break;
+                case GAS:
+                    treatedGas++;
+                    totalGasTimeInQue += timeInQue;
+                    break;
+                default:
+                    System.out.println("treatment error");
+                    break;
+            }
+            treatedTotal++;
+            totalTimeInQue += timeInQue;
+            treatedPatientList.add(patient);
+        }
+
+        private void printStats() {
+            System.out.printf("Losses of Gastro:\t%d\nLosses of Heart:\t%d\nLosses of Bleeders:\t%d\nTotal Losses:\t%d\n\n", deathsByGas, deathsByHeart, deathsByBlood, totalDeaths);
+            System.out.printf("Number of Gastro Serviced:\t%d\nNumber of Hearts Serviced:\t%d\nNumber of Bleeders Serviced:\t%d\nTotal Serviced:\t%d\n\n", treatedGas, treatedHeart, treatedBlood, treatedTotal);
+            System.out.printf("Average time Gastro spend in queue:\t%d\nAverage time Heart Patients spend in queue:\t%d\nAverage time Bleeders spend in queue:\t%d\nAverage Time any patient spent in queue:\t%d\n\n", avgTimeInQueGas, avgTimeInQueHeart, avgTimeInQueBlood, avgTimeInQueTotal);
+            System.out.println("Patients Lost during the simulation");
+            for (Patient patient : deadPatientList) {
+                System.out.println(patient);
+            }
+            System.out.println("Patients Treated during the simulation");
+            for (Patient patient : treatedPatientList) {
+                System.out.println(patient);
+            }
+        }
+
+        private void setAverages() {
+            avgTimeInQueBlood = (totalBloodTimeInQue / (deathsByBlood + treatedBlood));
+            avgTimeInQueGas = (totalGasTimeInQue / (deathsByGas + treatedGas));
+            avgTimeInQueHeart = (totalHeartTimeInQue / (deathsByHeart + treatedHeart));
+            avgTimeInQueTotal = (totalTimeInQue / (totalDeaths + treatedTotal));
+        }
     }
 }

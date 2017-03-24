@@ -9,8 +9,8 @@ public class Patient {
     boolean isAlive;
     boolean wasTreated;
     int arrivalTime;
-    private int deathTime;
-    private int treatmentTime;
+    int deathTime;
+    int treatmentTime;
     private int treatmentLength;
     private int patientNumber;
 
@@ -26,43 +26,43 @@ public class Patient {
     //patient ailment is uniformly distributed
     private void setAilment() {
         int x = ((int) (Math.random() * 10));
-        if(x<3)
+        if (x < 3)
             ailment = Ailment.HEART;
-        else if(x<5)
-            ailment = Ailment.BLEED;
-        else        ailment = Ailment.GAS;
+        else if (x < 5)
+            ailment = Ailment.GAS;
+        else ailment = Ailment.BLEED;
 
     }
 
     //use standard deviation for the times people die
     private void setDeathTime() {
         double time = 0.0;
-        for(int i = 0; i < 12; i++){
+        for (int i = 0; i < 12; i++) {
             time += Math.random();
         }
         time = time - 6;
-        double mu=0.0;
-        double sigma=0.0;
+        double mu = 0.0;
+        double sigma = 0.0;
 
         switch (ailment) {
             case BLEED:
-                mu = 65.0*60;
-                sigma = 1.0/3;
+                mu = 65.0 * 60;
+                sigma = 1.0 / 3;
                 break;
             case GAS:
-                mu = 80.0*60;
-                sigma = 1.0/2;
+                mu = 80.0 * 60;
+                sigma = 1.0 / 2;
                 break;
             case HEART:
-                mu = 35.0*60;
-                sigma = 1.0/6;
+                mu = 35.0 * 60;
+                sigma = 1.0 / 6;
                 break;
             default:
                 System.err.println("case bug in lifetime in waiting line");
                 break;
         }
-        time = (sigma*time + mu);
-        deathTime=arrivalTime+(int)time;
+        time = (sigma * time + mu);
+        deathTime = arrivalTime + (int) time;
     }
 
     Ailment getAilment() {
