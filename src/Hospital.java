@@ -297,13 +297,13 @@ class Hospital {
             System.out.printf("Number of Gastro Serviced:\t%d\nNumber of Hearts Serviced:\t%d\nNumber of Bleeders Serviced:\t%d\nTotal Serviced:\t%d\n\n", treatedGas, treatedHeart, treatedBlood, treatedTotal);
             System.out.printf("Average time Gastro spend in queue:\t%d\nAverage time Heart Patients spend in queue:\t%d\nAverage time Bleeders spend in queue:\t%d\nAverage Time any patient spent in queue:\t%d\n\n", avgTimeInQueGas, avgTimeInQueHeart, avgTimeInQueBlood, avgTimeInQueTotal);
             System.out.println("Patients Lost during the simulation");
-            for (Patient patient : deadPatientList) {
-                System.out.println(patient);
-            }
-            System.out.println("Patients Treated during the simulation");
-            for (Patient patient : treatedPatientList) {
-                System.out.println(patient);
-            }
+//            for (Patient patient : deadPatientList) {
+//                System.out.println(patient);
+//            }
+          //  System.out.println("Patients Treated during the simulation");
+          //  for (Patient patient : treatedPatientList) {
+          //      System.out.println(patient);
+          //  }
         }
 
         private void setAverages() {

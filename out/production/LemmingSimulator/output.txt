@@ -1,0 +1,667 @@
+THE GREAT AMERICAN MEDICAL SYSTEM SIMULATION
+This run is for 1 doctors on staff
+
+Losses of Gastro:	9
+Losses of Heart:	16
+Losses of Bleeders:	23
+Total Losses:	48
+
+Number of Gastro Serviced:	45
+Number of Hearts Serviced:	61
+Number of Bleeders Serviced:	151
+Total Serviced:	257
+
+Average time Gastro spend in queue:	1597
+Average time Heart Patients spend in queue:	782
+Average time Bleeders spend in queue:	1179
+Average Time any patient spent in queue:	1153
+
+Patients Lost during the simulation
+ID:	   8	Ailment:	   HEART	Arrival Time:	    9458	Death Time:	   11558	Total Time In Hospital:	    2100
+ID:	   9	Ailment:	   HEART	Arrival Time:	   10444	Death Time:	   12543	Total Time In Hospital:	    2099
+ID:	  10	Ailment:	   HEART	Arrival Time:	   12696	Death Time:	   14796	Total Time In Hospital:	    2100
+ID:	  13	Ailment:	     GAS	Arrival Time:	   18682	Death Time:	   23482	Total Time In Hospital:	    4800
+ID:	  19	Ailment:	   BLEED	Arrival Time:	   23301	Death Time:	   27200	Total Time In Hospital:	    3899
+ID:	  26	Ailment:	   BLEED	Arrival Time:	   31898	Death Time:	   35797	Total Time In Hospital:	    3899
+ID:	  28	Ailment:	   HEART	Arrival Time:	   34673	Death Time:	   36772	Total Time In Hospital:	    2099
+ID:	  27	Ailment:	   BLEED	Arrival Time:	   33215	Death Time:	   37114	Total Time In Hospital:	    3899
+ID:	  31	Ailment:	   HEART	Arrival Time:	   35424	Death Time:	   37523	Total Time In Hospital:	    2099
+ID:	  29	Ailment:	   BLEED	Arrival Time:	   35389	Death Time:	   39289	Total Time In Hospital:	    3900
+ID:	  32	Ailment:	   BLEED	Arrival Time:	   36809	Death Time:	   40708	Total Time In Hospital:	    3899
+ID:	  36	Ailment:	   HEART	Arrival Time:	   40168	Death Time:	   42268	Total Time In Hospital:	    2100
+ID:	  35	Ailment:	     GAS	Arrival Time:	   38895	Death Time:	   43694	Total Time In Hospital:	    4799
+ID:	  37	Ailment:	   BLEED	Arrival Time:	   40306	Death Time:	   44205	Total Time In Hospital:	    3899
+ID:	  45	Ailment:	   BLEED	Arrival Time:	   51602	Death Time:	   55501	Total Time In Hospital:	    3899
+ID:	  59	Ailment:	   BLEED	Arrival Time:	   69221	Death Time:	   73120	Total Time In Hospital:	    3899
+ID:	  63	Ailment:	   BLEED	Arrival Time:	   72136	Death Time:	   76035	Total Time In Hospital:	    3899
+ID:	  66	Ailment:	   HEART	Arrival Time:	   74351	Death Time:	   76451	Total Time In Hospital:	    2100
+ID:	  64	Ailment:	   BLEED	Arrival Time:	   72766	Death Time:	   76665	Total Time In Hospital:	    3899
+ID:	 122	Ailment:	   HEART	Arrival Time:	  155511	Death Time:	  157611	Total Time In Hospital:	    2100
+ID:	 130	Ailment:	   HEART	Arrival Time:	  165599	Death Time:	  167699	Total Time In Hospital:	    2100
+ID:	 144	Ailment:	   HEART	Arrival Time:	  179861	Death Time:	  181960	Total Time In Hospital:	    2099
+ID:	 145	Ailment:	   BLEED	Arrival Time:	  180275	Death Time:	  184174	Total Time In Hospital:	    3899
+ID:	 146	Ailment:	   BLEED	Arrival Time:	  180871	Death Time:	  184771	Total Time In Hospital:	    3900
+ID:	 148	Ailment:	   BLEED	Arrival Time:	  181327	Death Time:	  185227	Total Time In Hospital:	    3900
+ID:	 147	Ailment:	     GAS	Arrival Time:	  181149	Death Time:	  185948	Total Time In Hospital:	    4799
+ID:	 149	Ailment:	   BLEED	Arrival Time:	  182263	Death Time:	  186162	Total Time In Hospital:	    3899
+ID:	 157	Ailment:	   HEART	Arrival Time:	  193300	Death Time:	  195399	Total Time In Hospital:	    2099
+ID:	 169	Ailment:	   BLEED	Arrival Time:	  203061	Death Time:	  206960	Total Time In Hospital:	    3899
+ID:	 167	Ailment:	     GAS	Arrival Time:	  202434	Death Time:	  207234	Total Time In Hospital:	    4800
+ID:	 168	Ailment:	     GAS	Arrival Time:	  202515	Death Time:	  207315	Total Time In Hospital:	    4800
+ID:	 171	Ailment:	   BLEED	Arrival Time:	  205572	Death Time:	  209472	Total Time In Hospital:	    3900
+ID:	 172	Ailment:	   BLEED	Arrival Time:	  206323	Death Time:	  210223	Total Time In Hospital:	    3900
+ID:	 236	Ailment:	   HEART	Arrival Time:	  271938	Death Time:	  274037	Total Time In Hospital:	    2099
+ID:	 238	Ailment:	   BLEED	Arrival Time:	  274926	Death Time:	  278826	Total Time In Hospital:	    3900
+ID:	 241	Ailment:	   HEART	Arrival Time:	  277102	Death Time:	  279201	Total Time In Hospital:	    2099
+ID:	 239	Ailment:	   BLEED	Arrival Time:	  276561	Death Time:	  280460	Total Time In Hospital:	    3899
+ID:	 242	Ailment:	   BLEED	Arrival Time:	  277784	Death Time:	  281684	Total Time In Hospital:	    3900
+ID:	 252	Ailment:	   BLEED	Arrival Time:	  292205	Death Time:	  296104	Total Time In Hospital:	    3899
+ID:	 254	Ailment:	     GAS	Arrival Time:	  293012	Death Time:	  297812	Total Time In Hospital:	    4800
+ID:	 255	Ailment:	     GAS	Arrival Time:	  294189	Death Time:	  298988	Total Time In Hospital:	    4799
+ID:	 256	Ailment:	     GAS	Arrival Time:	  295458	Death Time:	  300258	Total Time In Hospital:	    4800
+ID:	 261	Ailment:	   HEART	Arrival Time:	  298505	Death Time:	  300604	Total Time In Hospital:	    2099
+ID:	 259	Ailment:	   BLEED	Arrival Time:	  297138	Death Time:	  301038	Total Time In Hospital:	    3900
+ID:	 257	Ailment:	     GAS	Arrival Time:	  296411	Death Time:	  301210	Total Time In Hospital:	    4799
+ID:	 271	Ailment:	   BLEED	Arrival Time:	  310947	Death Time:	  314847	Total Time In Hospital:	    3900
+ID:	 285	Ailment:	   HEART	Arrival Time:	  327822	Death Time:	  329922	Total Time In Hospital:	    2100
+ID:	 293	Ailment:	   HEART	Arrival Time:	  333348	Death Time:	  335448	Total Time In Hospital:	    2100
+Patients Treated during the simulation
+ID:	   1	Ailment:	   HEART	Arrival Time:	       0	Treatment Began:	       1	Treatment Lasted:	 1112	Total Time In Hospital:	    1113
+ID:	   2	Ailment:	   BLEED	Arrival Time:	    2077	Treatment Began:	    2077	Treatment Lasted:	   92	Total Time In Hospital:	      92
+ID:	   3	Ailment:	   BLEED	Arrival Time:	    2398	Treatment Began:	    2398	Treatment Lasted:	 1144	Total Time In Hospital:	    1144
+ID:	   4	Ailment:	   BLEED	Arrival Time:	    3940	Treatment Began:	    3940	Treatment Lasted:	  289	Total Time In Hospital:	     289
+ID:	   5	Ailment:	     GAS	Arrival Time:	    5241	Treatment Began:	    5241	Treatment Lasted:	 1991	Total Time In Hospital:	    1991
+ID:	   6	Ailment:	   HEART	Arrival Time:	    5909	Treatment Began:	    7232	Treatment Lasted:	  744	Total Time In Hospital:	    2067
+ID:	   7	Ailment:	   HEART	Arrival Time:	    8360	Treatment Began:	    8360	Treatment Lasted:	 8009	Total Time In Hospital:	    8009
+ID:	  11	Ailment:	   HEART	Arrival Time:	   17654	Treatment Began:	   17654	Treatment Lasted:	 3450	Total Time In Hospital:	    3450
+ID:	  12	Ailment:	   BLEED	Arrival Time:	   17850	Treatment Began:	   21104	Treatment Lasted:	 1164	Total Time In Hospital:	    4418
+ID:	  14	Ailment:	     GAS	Arrival Time:	   18749	Treatment Began:	   22268	Treatment Lasted:	  440	Total Time In Hospital:	    3959
+ID:	  17	Ailment:	   BLEED	Arrival Time:	   20832	Treatment Began:	   22708	Treatment Lasted:	  398	Total Time In Hospital:	    2274
+ID:	  16	Ailment:	   BLEED	Arrival Time:	   20601	Treatment Began:	   23106	Treatment Lasted:	   56	Total Time In Hospital:	    2561
+ID:	  15	Ailment:	   BLEED	Arrival Time:	   19868	Treatment Began:	   23162	Treatment Lasted:	 3586	Total Time In Hospital:	    6880
+ID:	  18	Ailment:	   BLEED	Arrival Time:	   23039	Treatment Began:	   26748	Treatment Lasted:	 1091	Total Time In Hospital:	    4800
+ID:	  20	Ailment:	   BLEED	Arrival Time:	   25218	Treatment Began:	   27839	Treatment Lasted:	 1753	Total Time In Hospital:	    4374
+ID:	  21	Ailment:	   BLEED	Arrival Time:	   28877	Treatment Began:	   29592	Treatment Lasted:	  360	Total Time In Hospital:	    1075
+ID:	  22	Ailment:	   BLEED	Arrival Time:	   29314	Treatment Began:	   29952	Treatment Lasted:	  213	Total Time In Hospital:	     851
+ID:	  23	Ailment:	     GAS	Arrival Time:	   29997	Treatment Began:	   30165	Treatment Lasted:	  723	Total Time In Hospital:	     891
+ID:	  24	Ailment:	   HEART	Arrival Time:	   31133	Treatment Began:	   31133	Treatment Lasted:	  759	Total Time In Hospital:	     759
+ID:	  25	Ailment:	   HEART	Arrival Time:	   31339	Treatment Began:	   31892	Treatment Lasted:	 7045	Total Time In Hospital:	    7598
+ID:	  30	Ailment:	     GAS	Arrival Time:	   35394	Treatment Began:	   38937	Treatment Lasted:	  971	Total Time In Hospital:	    4514
+ID:	  33	Ailment:	     GAS	Arrival Time:	   37193	Treatment Began:	   39908	Treatment Lasted:	 2555	Total Time In Hospital:	    5270
+ID:	  38	Ailment:	   HEART	Arrival Time:	   41816	Treatment Began:	   42463	Treatment Lasted:	  554	Total Time In Hospital:	    1201
+ID:	  34	Ailment:	     GAS	Arrival Time:	   38854	Treatment Began:	   43017	Treatment Lasted:	 2292	Total Time In Hospital:	    6455
+ID:	  39	Ailment:	   BLEED	Arrival Time:	   42242	Treatment Began:	   45309	Treatment Lasted:	  178	Total Time In Hospital:	    3245
+ID:	  40	Ailment:	   BLEED	Arrival Time:	   42811	Treatment Began:	   45487	Treatment Lasted:	  565	Total Time In Hospital:	    3241
+ID:	  41	Ailment:	   HEART	Arrival Time:	   48401	Treatment Began:	   48401	Treatment Lasted:	 2055	Total Time In Hospital:	    2055
+ID:	  42	Ailment:	   BLEED	Arrival Time:	   48817	Treatment Began:	   50456	Treatment Lasted:	  667	Total Time In Hospital:	    2306
+ID:	  43	Ailment:	   BLEED	Arrival Time:	   50001	Treatment Began:	   51123	Treatment Lasted:	  303	Total Time In Hospital:	    1425
+ID:	  44	Ailment:	   BLEED	Arrival Time:	   50191	Treatment Began:	   51426	Treatment Lasted:	  883	Total Time In Hospital:	    2118
+ID:	  46	Ailment:	   HEART	Arrival Time:	   52078	Treatment Began:	   52309	Treatment Lasted:	 1351	Total Time In Hospital:	    1582
+ID:	  47	Ailment:	   HEART	Arrival Time:	   52464	Treatment Began:	   53660	Treatment Lasted:	 2269	Total Time In Hospital:	    3465
+ID:	  48	Ailment:	   BLEED	Arrival Time:	   55598	Treatment Began:	   55929	Treatment Lasted:	  943	Total Time In Hospital:	    1274
+ID:	  49	Ailment:	   BLEED	Arrival Time:	   57005	Treatment Began:	   57005	Treatment Lasted:	 1053	Total Time In Hospital:	    1053
+ID:	  50	Ailment:	   BLEED	Arrival Time:	   60676	Treatment Began:	   60676	Treatment Lasted:	  131	Total Time In Hospital:	     131
+ID:	  51	Ailment:	     GAS	Arrival Time:	   60790	Treatment Began:	   60807	Treatment Lasted:	  672	Total Time In Hospital:	     689
+ID:	  52	Ailment:	     GAS	Arrival Time:	   61585	Treatment Began:	   61585	Treatment Lasted:	  762	Total Time In Hospital:	     762
+ID:	  53	Ailment:	     GAS	Arrival Time:	   62369	Treatment Began:	   62369	Treatment Lasted:	 1246	Total Time In Hospital:	    1246
+ID:	  54	Ailment:	     GAS	Arrival Time:	   63247	Treatment Began:	   63615	Treatment Lasted:	 1105	Total Time In Hospital:	    1473
+ID:	  55	Ailment:	   BLEED	Arrival Time:	   65255	Treatment Began:	   65255	Treatment Lasted:	 1003	Total Time In Hospital:	    1003
+ID:	  56	Ailment:	   BLEED	Arrival Time:	   65675	Treatment Began:	   66258	Treatment Lasted:	 1332	Total Time In Hospital:	    1915
+ID:	  57	Ailment:	   HEART	Arrival Time:	   66927	Treatment Began:	   67590	Treatment Lasted:	 1595	Total Time In Hospital:	    2258
+ID:	  58	Ailment:	   BLEED	Arrival Time:	   68216	Treatment Began:	   69185	Treatment Lasted:	 1257	Total Time In Hospital:	    2226
+ID:	  61	Ailment:	   HEART	Arrival Time:	   69665	Treatment Began:	   70442	Treatment Lasted:	 1162	Total Time In Hospital:	    1939
+ID:	  60	Ailment:	   BLEED	Arrival Time:	   69447	Treatment Began:	   71604	Treatment Lasted:	 1436	Total Time In Hospital:	    3593
+ID:	  62	Ailment:	   HEART	Arrival Time:	   71787	Treatment Began:	   73040	Treatment Lasted:	 1806	Total Time In Hospital:	    3059
+ID:	  65	Ailment:	   HEART	Arrival Time:	   73233	Treatment Began:	   74846	Treatment Lasted:	 2461	Total Time In Hospital:	    4074
+ID:	  67	Ailment:	   HEART	Arrival Time:	   76700	Treatment Began:	   77307	Treatment Lasted:	  485	Total Time In Hospital:	    1092
+ID:	  68	Ailment:	   BLEED	Arrival Time:	   78992	Treatment Began:	   78992	Treatment Lasted:	   97	Total Time In Hospital:	      97
+ID:	  69	Ailment:	   BLEED	Arrival Time:	   83260	Treatment Began:	   83260	Treatment Lasted:	   88	Total Time In Hospital:	      88
+ID:	  70	Ailment:	   BLEED	Arrival Time:	   83496	Treatment Began:	   83496	Treatment Lasted:	  632	Total Time In Hospital:	     632
+ID:	  71	Ailment:	   BLEED	Arrival Time:	   85088	Treatment Began:	   85088	Treatment Lasted:	  686	Total Time In Hospital:	     686
+ID:	  72	Ailment:	   BLEED	Arrival Time:	   85145	Treatment Began:	   85774	Treatment Lasted:	  968	Total Time In Hospital:	    1597
+ID:	  73	Ailment:	   BLEED	Arrival Time:	   88152	Treatment Began:	   88152	Treatment Lasted:	   54	Total Time In Hospital:	      54
+ID:	  74	Ailment:	   BLEED	Arrival Time:	   89873	Treatment Began:	   89873	Treatment Lasted:	  333	Total Time In Hospital:	     333
+ID:	  75	Ailment:	   HEART	Arrival Time:	   91093	Treatment Began:	   91093	Treatment Lasted:	  164	Total Time In Hospital:	     164
+ID:	  76	Ailment:	   BLEED	Arrival Time:	   94166	Treatment Began:	   94166	Treatment Lasted:	  294	Total Time In Hospital:	     294
+ID:	  77	Ailment:	   BLEED	Arrival Time:	   94968	Treatment Began:	   94968	Treatment Lasted:	  317	Total Time In Hospital:	     317
+ID:	  78	Ailment:	   BLEED	Arrival Time:	   95107	Treatment Began:	   95285	Treatment Lasted:	  407	Total Time In Hospital:	     585
+ID:	  79	Ailment:	   BLEED	Arrival Time:	   95909	Treatment Began:	   95909	Treatment Lasted:	 1590	Total Time In Hospital:	    1590
+ID:	  80	Ailment:	   BLEED	Arrival Time:	  101227	Treatment Began:	  101227	Treatment Lasted:	   78	Total Time In Hospital:	      78
+ID:	  81	Ailment:	   HEART	Arrival Time:	  102826	Treatment Began:	  102826	Treatment Lasted:	  103	Total Time In Hospital:	     103
+ID:	  82	Ailment:	   HEART	Arrival Time:	  103030	Treatment Began:	  103030	Treatment Lasted:	 1576	Total Time In Hospital:	    1576
+ID:	  84	Ailment:	   HEART	Arrival Time:	  104370	Treatment Began:	  104606	Treatment Lasted:	 1519	Total Time In Hospital:	    1755
+ID:	  85	Ailment:	   HEART	Arrival Time:	  105096	Treatment Began:	  106125	Treatment Lasted:	  763	Total Time In Hospital:	    1792
+ID:	  83	Ailment:	     GAS	Arrival Time:	  104046	Treatment Began:	  106888	Treatment Lasted:	  277	Total Time In Hospital:	    3119
+ID:	  86	Ailment:	   HEART	Arrival Time:	  106976	Treatment Began:	  107165	Treatment Lasted:	  162	Total Time In Hospital:	     351
+ID:	  87	Ailment:	   BLEED	Arrival Time:	  108457	Treatment Began:	  108457	Treatment Lasted:	   61	Total Time In Hospital:	      61
+ID:	  88	Ailment:	   BLEED	Arrival Time:	  108948	Treatment Began:	  108948	Treatment Lasted:	  714	Total Time In Hospital:	     714
+ID:	  89	Ailment:	   BLEED	Arrival Time:	  110072	Treatment Began:	  110072	Treatment Lasted:	  232	Total Time In Hospital:	     232
+ID:	  90	Ailment:	   HEART	Arrival Time:	  110429	Treatment Began:	  110429	Treatment Lasted:	 1381	Total Time In Hospital:	    1381
+ID:	  91	Ailment:	   BLEED	Arrival Time:	  111707	Treatment Began:	  111810	Treatment Lasted:	  159	Total Time In Hospital:	     262
+ID:	  92	Ailment:	     GAS	Arrival Time:	  112508	Treatment Began:	  112508	Treatment Lasted:	  817	Total Time In Hospital:	     817
+ID:	  93	Ailment:	   HEART	Arrival Time:	  112886	Treatment Began:	  113325	Treatment Lasted:	 2614	Total Time In Hospital:	    3053
+ID:	  94	Ailment:	   HEART	Arrival Time:	  113876	Treatment Began:	  115939	Treatment Lasted:	 1121	Total Time In Hospital:	    3184
+ID:	  95	Ailment:	     GAS	Arrival Time:	  119878	Treatment Began:	  119878	Treatment Lasted:	 2134	Total Time In Hospital:	    2134
+ID:	  96	Ailment:	   BLEED	Arrival Time:	  119911	Treatment Began:	  122012	Treatment Lasted:	  701	Total Time In Hospital:	    2802
+ID:	  97	Ailment:	     GAS	Arrival Time:	  119947	Treatment Began:	  122713	Treatment Lasted:	  541	Total Time In Hospital:	    3307
+ID:	  98	Ailment:	     GAS	Arrival Time:	  122415	Treatment Began:	  123254	Treatment Lasted:	  896	Total Time In Hospital:	    1735
+ID:	  99	Ailment:	   BLEED	Arrival Time:	  123136	Treatment Began:	  124150	Treatment Lasted:	  118	Total Time In Hospital:	    1132
+ID:	 100	Ailment:	   BLEED	Arrival Time:	  123716	Treatment Began:	  124268	Treatment Lasted:	  406	Total Time In Hospital:	     958
+ID:	 101	Ailment:	   BLEED	Arrival Time:	  126961	Treatment Began:	  126961	Treatment Lasted:	  340	Total Time In Hospital:	     340
+ID:	 102	Ailment:	   BLEED	Arrival Time:	  128728	Treatment Began:	  128728	Treatment Lasted:	  631	Total Time In Hospital:	     631
+ID:	 103	Ailment:	   HEART	Arrival Time:	  134013	Treatment Began:	  134013	Treatment Lasted:	  342	Total Time In Hospital:	     342
+ID:	 104	Ailment:	   BLEED	Arrival Time:	  135445	Treatment Began:	  135445	Treatment Lasted:	  246	Total Time In Hospital:	     246
+ID:	 105	Ailment:	   HEART	Arrival Time:	  135608	Treatment Began:	  135691	Treatment Lasted:	  232	Total Time In Hospital:	     315
+ID:	 106	Ailment:	   BLEED	Arrival Time:	  140044	Treatment Began:	  140044	Treatment Lasted:	  778	Total Time In Hospital:	     778
+ID:	 107	Ailment:	   BLEED	Arrival Time:	  140161	Treatment Began:	  140822	Treatment Lasted:	   45	Total Time In Hospital:	     706
+ID:	 108	Ailment:	   BLEED	Arrival Time:	  140481	Treatment Began:	  140867	Treatment Lasted:	  374	Total Time In Hospital:	     760
+ID:	 109	Ailment:	   BLEED	Arrival Time:	  140861	Treatment Began:	  141241	Treatment Lasted:	  971	Total Time In Hospital:	    1351
+ID:	 110	Ailment:	     GAS	Arrival Time:	  142015	Treatment Began:	  142212	Treatment Lasted:	  522	Total Time In Hospital:	     719
+ID:	 111	Ailment:	   HEART	Arrival Time:	  143264	Treatment Began:	  143264	Treatment Lasted:	 1624	Total Time In Hospital:	    1624
+ID:	 112	Ailment:	   BLEED	Arrival Time:	  143564	Treatment Began:	  144888	Treatment Lasted:	  696	Total Time In Hospital:	    2020
+ID:	 113	Ailment:	   BLEED	Arrival Time:	  143566	Treatment Began:	  145584	Treatment Lasted:	  116	Total Time In Hospital:	    2134
+ID:	 114	Ailment:	   BLEED	Arrival Time:	  144128	Treatment Began:	  145700	Treatment Lasted:	  663	Total Time In Hospital:	    2235
+ID:	 115	Ailment:	   BLEED	Arrival Time:	  146076	Treatment Began:	  146363	Treatment Lasted:	  166	Total Time In Hospital:	     453
+ID:	 116	Ailment:	   BLEED	Arrival Time:	  146181	Treatment Began:	  146529	Treatment Lasted:	  145	Total Time In Hospital:	     493
+ID:	 117	Ailment:	     GAS	Arrival Time:	  147544	Treatment Began:	  147544	Treatment Lasted:	 3206	Total Time In Hospital:	    3206
+ID:	 118	Ailment:	   BLEED	Arrival Time:	  151366	Treatment Began:	  151366	Treatment Lasted:	 1248	Total Time In Hospital:	    1248
+ID:	 119	Ailment:	   BLEED	Arrival Time:	  152786	Treatment Began:	  152786	Treatment Lasted:	 1720	Total Time In Hospital:	    1720
+ID:	 120	Ailment:	   HEART	Arrival Time:	  153724	Treatment Began:	  154506	Treatment Lasted:	   19	Total Time In Hospital:	     801
+ID:	 121	Ailment:	     GAS	Arrival Time:	  154225	Treatment Began:	  154525	Treatment Lasted:	 4883	Total Time In Hospital:	    5183
+ID:	 125	Ailment:	   HEART	Arrival Time:	  159126	Treatment Began:	  159408	Treatment Lasted:	  167	Total Time In Hospital:	     449
+ID:	 124	Ailment:	   BLEED	Arrival Time:	  158940	Treatment Began:	  159575	Treatment Lasted:	   52	Total Time In Hospital:	     687
+ID:	 123	Ailment:	   BLEED	Arrival Time:	  155865	Treatment Began:	  159627	Treatment Lasted:	  579	Total Time In Hospital:	    4341
+ID:	 126	Ailment:	   BLEED	Arrival Time:	  159879	Treatment Began:	  160206	Treatment Lasted:	   85	Total Time In Hospital:	     412
+ID:	 127	Ailment:	   BLEED	Arrival Time:	  162423	Treatment Began:	  162423	Treatment Lasted:	  451	Total Time In Hospital:	     451
+ID:	 128	Ailment:	   HEART	Arrival Time:	  163274	Treatment Began:	  163274	Treatment Lasted:	 2197	Total Time In Hospital:	    2197
+ID:	 129	Ailment:	   BLEED	Arrival Time:	  164156	Treatment Began:	  165471	Treatment Lasted:	 2550	Total Time In Hospital:	    3865
+ID:	 132	Ailment:	   BLEED	Arrival Time:	  166172	Treatment Began:	  168021	Treatment Lasted:	  600	Total Time In Hospital:	    2449
+ID:	 131	Ailment:	   BLEED	Arrival Time:	  165968	Treatment Began:	  168621	Treatment Lasted:	  991	Total Time In Hospital:	    3644
+ID:	 133	Ailment:	     GAS	Arrival Time:	  167108	Treatment Began:	  169612	Treatment Lasted:	  471	Total Time In Hospital:	    2975
+ID:	 134	Ailment:	   BLEED	Arrival Time:	  169936	Treatment Began:	  170083	Treatment Lasted:	  300	Total Time In Hospital:	     447
+ID:	 135	Ailment:	   BLEED	Arrival Time:	  171655	Treatment Began:	  171655	Treatment Lasted:	  256	Total Time In Hospital:	     256
+ID:	 136	Ailment:	   BLEED	Arrival Time:	  172402	Treatment Began:	  172402	Treatment Lasted:	  270	Total Time In Hospital:	     270
+ID:	 137	Ailment:	   HEART	Arrival Time:	  172780	Treatment Began:	  172780	Treatment Lasted:	 1734	Total Time In Hospital:	    1734
+ID:	 138	Ailment:	     GAS	Arrival Time:	  173317	Treatment Began:	  174514	Treatment Lasted:	 1442	Total Time In Hospital:	    2639
+ID:	 139	Ailment:	   BLEED	Arrival Time:	  173922	Treatment Began:	  175956	Treatment Lasted:	  279	Total Time In Hospital:	    2313
+ID:	 140	Ailment:	   BLEED	Arrival Time:	  176622	Treatment Began:	  176622	Treatment Lasted:	 1791	Total Time In Hospital:	    1791
+ID:	 141	Ailment:	     GAS	Arrival Time:	  177685	Treatment Began:	  178413	Treatment Lasted:	  260	Total Time In Hospital:	     988
+ID:	 142	Ailment:	     GAS	Arrival Time:	  179009	Treatment Began:	  179009	Treatment Lasted:	 1283	Total Time In Hospital:	    1283
+ID:	 143	Ailment:	   HEART	Arrival Time:	  179591	Treatment Began:	  180292	Treatment Lasted:	 5113	Total Time In Hospital:	    5814
+ID:	 151	Ailment:	   BLEED	Arrival Time:	  184228	Treatment Began:	  185405	Treatment Lasted:	  363	Total Time In Hospital:	    1540
+ID:	 150	Ailment:	   BLEED	Arrival Time:	  182662	Treatment Began:	  185768	Treatment Lasted:	  695	Total Time In Hospital:	    3801
+ID:	 152	Ailment:	   BLEED	Arrival Time:	  186471	Treatment Began:	  186471	Treatment Lasted:	  565	Total Time In Hospital:	     565
+ID:	 153	Ailment:	   BLEED	Arrival Time:	  186586	Treatment Began:	  187036	Treatment Lasted:	  363	Total Time In Hospital:	     813
+ID:	 154	Ailment:	   BLEED	Arrival Time:	  190250	Treatment Began:	  190250	Treatment Lasted:	  201	Total Time In Hospital:	     201
+ID:	 155	Ailment:	   BLEED	Arrival Time:	  190263	Treatment Began:	  190451	Treatment Lasted:	  411	Total Time In Hospital:	     599
+ID:	 156	Ailment:	   HEART	Arrival Time:	  191331	Treatment Began:	  191331	Treatment Lasted:	 6087	Total Time In Hospital:	    6087
+ID:	 158	Ailment:	   BLEED	Arrival Time:	  194268	Treatment Began:	  197418	Treatment Lasted:	  106	Total Time In Hospital:	    3256
+ID:	 159	Ailment:	   BLEED	Arrival Time:	  194724	Treatment Began:	  197524	Treatment Lasted:	   93	Total Time In Hospital:	    2893
+ID:	 160	Ailment:	     GAS	Arrival Time:	  196502	Treatment Began:	  197617	Treatment Lasted:	  221	Total Time In Hospital:	    1336
+ID:	 161	Ailment:	   BLEED	Arrival Time:	  197910	Treatment Began:	  197910	Treatment Lasted:	  131	Total Time In Hospital:	     131
+ID:	 162	Ailment:	   BLEED	Arrival Time:	  198341	Treatment Began:	  198341	Treatment Lasted:	  334	Total Time In Hospital:	     334
+ID:	 163	Ailment:	   BLEED	Arrival Time:	  199698	Treatment Began:	  199698	Treatment Lasted:	  278	Total Time In Hospital:	     278
+ID:	 164	Ailment:	   BLEED	Arrival Time:	  200331	Treatment Began:	  200331	Treatment Lasted:	   74	Total Time In Hospital:	      74
+ID:	 165	Ailment:	   BLEED	Arrival Time:	  201341	Treatment Began:	  201341	Treatment Lasted:	  364	Total Time In Hospital:	     364
+ID:	 166	Ailment:	   HEART	Arrival Time:	  201566	Treatment Began:	  201705	Treatment Lasted:	 2597	Total Time In Hospital:	    2736
+ID:	 170	Ailment:	   HEART	Arrival Time:	  204173	Treatment Began:	  204302	Treatment Lasted:	 5111	Total Time In Hospital:	    5240
+ID:	 174	Ailment:	   BLEED	Arrival Time:	  206692	Treatment Began:	  209413	Treatment Lasted:	  878	Total Time In Hospital:	    3599
+ID:	 173	Ailment:	   BLEED	Arrival Time:	  206465	Treatment Began:	  210291	Treatment Lasted:	   73	Total Time In Hospital:	    3899
+ID:	 175	Ailment:	     GAS	Arrival Time:	  206723	Treatment Began:	  210364	Treatment Lasted:	  579	Total Time In Hospital:	    4220
+ID:	 176	Ailment:	   BLEED	Arrival Time:	  209037	Treatment Began:	  210943	Treatment Lasted:	  305	Total Time In Hospital:	    2211
+ID:	 177	Ailment:	   BLEED	Arrival Time:	  211049	Treatment Began:	  211248	Treatment Lasted:	 2746	Total Time In Hospital:	    2945
+ID:	 178	Ailment:	   BLEED	Arrival Time:	  211427	Treatment Began:	  213994	Treatment Lasted:	  358	Total Time In Hospital:	    2925
+ID:	 179	Ailment:	     GAS	Arrival Time:	  215732	Treatment Began:	  215732	Treatment Lasted:	   97	Total Time In Hospital:	      97
+ID:	 180	Ailment:	   BLEED	Arrival Time:	  216511	Treatment Began:	  216511	Treatment Lasted:	  192	Total Time In Hospital:	     192
+ID:	 181	Ailment:	   BLEED	Arrival Time:	  216602	Treatment Began:	  216703	Treatment Lasted:	 1024	Total Time In Hospital:	    1125
+ID:	 182	Ailment:	   BLEED	Arrival Time:	  217645	Treatment Began:	  217727	Treatment Lasted:	   17	Total Time In Hospital:	      99
+ID:	 183	Ailment:	   BLEED	Arrival Time:	  219309	Treatment Began:	  219309	Treatment Lasted:	  579	Total Time In Hospital:	     579
+ID:	 184	Ailment:	   BLEED	Arrival Time:	  219837	Treatment Began:	  219888	Treatment Lasted:	  291	Total Time In Hospital:	     342
+ID:	 185	Ailment:	   BLEED	Arrival Time:	  222125	Treatment Began:	  222125	Treatment Lasted:	    3	Total Time In Hospital:	       3
+ID:	 186	Ailment:	   BLEED	Arrival Time:	  223372	Treatment Began:	  223372	Treatment Lasted:	  668	Total Time In Hospital:	     668
+ID:	 187	Ailment:	   BLEED	Arrival Time:	  223412	Treatment Began:	  224040	Treatment Lasted:	  255	Total Time In Hospital:	     883
+ID:	 188	Ailment:	     GAS	Arrival Time:	  223768	Treatment Began:	  224295	Treatment Lasted:	   99	Total Time In Hospital:	     626
+ID:	 189	Ailment:	     GAS	Arrival Time:	  224269	Treatment Began:	  224394	Treatment Lasted:	   22	Total Time In Hospital:	     147
+ID:	 190	Ailment:	   BLEED	Arrival Time:	  225092	Treatment Began:	  225092	Treatment Lasted:	  177	Total Time In Hospital:	     177
+ID:	 191	Ailment:	   BLEED	Arrival Time:	  227706	Treatment Began:	  227706	Treatment Lasted:	  116	Total Time In Hospital:	     116
+ID:	 192	Ailment:	     GAS	Arrival Time:	  227709	Treatment Began:	  227822	Treatment Lasted:	  441	Total Time In Hospital:	     554
+ID:	 193	Ailment:	   BLEED	Arrival Time:	  228149	Treatment Began:	  228263	Treatment Lasted:	 1121	Total Time In Hospital:	    1235
+ID:	 194	Ailment:	   BLEED	Arrival Time:	  228887	Treatment Began:	  229384	Treatment Lasted:	  506	Total Time In Hospital:	    1003
+ID:	 195	Ailment:	     GAS	Arrival Time:	  229174	Treatment Began:	  229890	Treatment Lasted:	  546	Total Time In Hospital:	    1262
+ID:	 196	Ailment:	   BLEED	Arrival Time:	  229208	Treatment Began:	  230436	Treatment Lasted:	   28	Total Time In Hospital:	    1256
+ID:	 197	Ailment:	   BLEED	Arrival Time:	  229461	Treatment Began:	  230464	Treatment Lasted:	  493	Total Time In Hospital:	    1496
+ID:	 198	Ailment:	   BLEED	Arrival Time:	  231408	Treatment Began:	  231408	Treatment Lasted:	  435	Total Time In Hospital:	     435
+ID:	 199	Ailment:	   BLEED	Arrival Time:	  232850	Treatment Began:	  232850	Treatment Lasted:	  766	Total Time In Hospital:	     766
+ID:	 200	Ailment:	   HEART	Arrival Time:	  233960	Treatment Began:	  233960	Treatment Lasted:	 2193	Total Time In Hospital:	    2193
+ID:	 201	Ailment:	     GAS	Arrival Time:	  236497	Treatment Began:	  236497	Treatment Lasted:	   50	Total Time In Hospital:	      50
+ID:	 202	Ailment:	   BLEED	Arrival Time:	  237378	Treatment Began:	  237378	Treatment Lasted:	  886	Total Time In Hospital:	     886
+ID:	 203	Ailment:	   BLEED	Arrival Time:	  237928	Treatment Began:	  238264	Treatment Lasted:	   96	Total Time In Hospital:	     432
+ID:	 204	Ailment:	   BLEED	Arrival Time:	  238070	Treatment Began:	  238360	Treatment Lasted:	  211	Total Time In Hospital:	     501
+ID:	 205	Ailment:	     GAS	Arrival Time:	  238647	Treatment Began:	  238647	Treatment Lasted:	 1697	Total Time In Hospital:	    1697
+ID:	 206	Ailment:	   BLEED	Arrival Time:	  239068	Treatment Began:	  240344	Treatment Lasted:	  789	Total Time In Hospital:	    2065
+ID:	 207	Ailment:	   BLEED	Arrival Time:	  240408	Treatment Began:	  241133	Treatment Lasted:	   13	Total Time In Hospital:	     738
+ID:	 208	Ailment:	   BLEED	Arrival Time:	  242002	Treatment Began:	  242002	Treatment Lasted:	 2068	Total Time In Hospital:	    2068
+ID:	 209	Ailment:	     GAS	Arrival Time:	  242827	Treatment Began:	  244070	Treatment Lasted:	  688	Total Time In Hospital:	    1931
+ID:	 210	Ailment:	   BLEED	Arrival Time:	  243439	Treatment Began:	  244758	Treatment Lasted:	  791	Total Time In Hospital:	    2110
+ID:	 211	Ailment:	   BLEED	Arrival Time:	  246415	Treatment Began:	  246415	Treatment Lasted:	  887	Total Time In Hospital:	     887
+ID:	 212	Ailment:	   BLEED	Arrival Time:	  246569	Treatment Began:	  247302	Treatment Lasted:	  871	Total Time In Hospital:	    1604
+ID:	 213	Ailment:	   BLEED	Arrival Time:	  248790	Treatment Began:	  248790	Treatment Lasted:	  403	Total Time In Hospital:	     403
+ID:	 214	Ailment:	   BLEED	Arrival Time:	  249120	Treatment Began:	  249193	Treatment Lasted:	   70	Total Time In Hospital:	     143
+ID:	 215	Ailment:	   HEART	Arrival Time:	  249721	Treatment Began:	  249721	Treatment Lasted:	   66	Total Time In Hospital:	      66
+ID:	 216	Ailment:	   BLEED	Arrival Time:	  250264	Treatment Began:	  250264	Treatment Lasted:	  333	Total Time In Hospital:	     333
+ID:	 217	Ailment:	   BLEED	Arrival Time:	  250325	Treatment Began:	  250597	Treatment Lasted:	  640	Total Time In Hospital:	     912
+ID:	 218	Ailment:	   BLEED	Arrival Time:	  252207	Treatment Began:	  252207	Treatment Lasted:	  493	Total Time In Hospital:	     493
+ID:	 219	Ailment:	   HEART	Arrival Time:	  252521	Treatment Began:	  252700	Treatment Lasted:	 4531	Total Time In Hospital:	    4710
+ID:	 220	Ailment:	     GAS	Arrival Time:	  254376	Treatment Began:	  257231	Treatment Lasted:	  641	Total Time In Hospital:	    3496
+ID:	 221	Ailment:	   BLEED	Arrival Time:	  254744	Treatment Began:	  257872	Treatment Lasted:	  149	Total Time In Hospital:	    3277
+ID:	 222	Ailment:	   BLEED	Arrival Time:	  256810	Treatment Began:	  258021	Treatment Lasted:	  169	Total Time In Hospital:	    1380
+ID:	 223	Ailment:	   BLEED	Arrival Time:	  257425	Treatment Began:	  258190	Treatment Lasted:	  404	Total Time In Hospital:	    1169
+ID:	 224	Ailment:	   BLEED	Arrival Time:	  260861	Treatment Began:	  260861	Treatment Lasted:	 1016	Total Time In Hospital:	    1016
+ID:	 225	Ailment:	   BLEED	Arrival Time:	  262626	Treatment Began:	  262626	Treatment Lasted:	   24	Total Time In Hospital:	      24
+ID:	 226	Ailment:	   BLEED	Arrival Time:	  262944	Treatment Began:	  262944	Treatment Lasted:	  786	Total Time In Hospital:	     786
+ID:	 227	Ailment:	   HEART	Arrival Time:	  263414	Treatment Began:	  263730	Treatment Lasted:	    6	Total Time In Hospital:	     322
+ID:	 228	Ailment:	     GAS	Arrival Time:	  265025	Treatment Began:	  265025	Treatment Lasted:	  588	Total Time In Hospital:	     588
+ID:	 229	Ailment:	   BLEED	Arrival Time:	  265517	Treatment Began:	  265613	Treatment Lasted:	  180	Total Time In Hospital:	     276
+ID:	 230	Ailment:	   BLEED	Arrival Time:	  267366	Treatment Began:	  267366	Treatment Lasted:	  118	Total Time In Hospital:	     118
+ID:	 231	Ailment:	   BLEED	Arrival Time:	  267430	Treatment Began:	  267484	Treatment Lasted:	  308	Total Time In Hospital:	     362
+ID:	 232	Ailment:	     GAS	Arrival Time:	  267952	Treatment Began:	  267952	Treatment Lasted:	 1344	Total Time In Hospital:	    1344
+ID:	 233	Ailment:	   BLEED	Arrival Time:	  268882	Treatment Began:	  269296	Treatment Lasted:	 1537	Total Time In Hospital:	    1951
+ID:	 234	Ailment:	     GAS	Arrival Time:	  270306	Treatment Began:	  270833	Treatment Lasted:	  784	Total Time In Hospital:	    1311
+ID:	 235	Ailment:	     GAS	Arrival Time:	  271508	Treatment Began:	  271617	Treatment Lasted:	 4560	Total Time In Hospital:	    4669
+ID:	 237	Ailment:	   BLEED	Arrival Time:	  273958	Treatment Began:	  276177	Treatment Lasted:	 1173	Total Time In Hospital:	    3392
+ID:	 240	Ailment:	   HEART	Arrival Time:	  277068	Treatment Began:	  277350	Treatment Lasted:	 3061	Total Time In Hospital:	    3343
+ID:	 243	Ailment:	   HEART	Arrival Time:	  278614	Treatment Began:	  280411	Treatment Lasted:	 1291	Total Time In Hospital:	    3088
+ID:	 245	Ailment:	     GAS	Arrival Time:	  280353	Treatment Began:	  281702	Treatment Lasted:	  275	Total Time In Hospital:	    1624
+ID:	 246	Ailment:	     GAS	Arrival Time:	  280591	Treatment Began:	  281977	Treatment Lasted:	  563	Total Time In Hospital:	    1949
+ID:	 244	Ailment:	   BLEED	Arrival Time:	  279267	Treatment Began:	  282540	Treatment Lasted:	  666	Total Time In Hospital:	    3939
+ID:	 247	Ailment:	     GAS	Arrival Time:	  283171	Treatment Began:	  283206	Treatment Lasted:	   57	Total Time In Hospital:	      92
+ID:	 248	Ailment:	   HEART	Arrival Time:	  286704	Treatment Began:	  286704	Treatment Lasted:	 1814	Total Time In Hospital:	    1814
+ID:	 249	Ailment:	   BLEED	Arrival Time:	  287836	Treatment Began:	  288518	Treatment Lasted:	  680	Total Time In Hospital:	    1362
+ID:	 250	Ailment:	   HEART	Arrival Time:	  288818	Treatment Began:	  289198	Treatment Lasted:	 2986	Total Time In Hospital:	    3366
+ID:	 251	Ailment:	   BLEED	Arrival Time:	  288945	Treatment Began:	  292184	Treatment Lasted:	  761	Total Time In Hospital:	    4000
+ID:	 253	Ailment:	   HEART	Arrival Time:	  292457	Treatment Began:	  292945	Treatment Lasted:	 5435	Total Time In Hospital:	    5923
+ID:	 258	Ailment:	   HEART	Arrival Time:	  296702	Treatment Began:	  298380	Treatment Lasted:	 3409	Total Time In Hospital:	    5087
+ID:	 260	Ailment:	   BLEED	Arrival Time:	  298389	Treatment Began:	  301789	Treatment Lasted:	  744	Total Time In Hospital:	    4144
+ID:	 263	Ailment:	     GAS	Arrival Time:	  301398	Treatment Began:	  302533	Treatment Lasted:	  970	Total Time In Hospital:	    2105
+ID:	 262	Ailment:	   BLEED	Arrival Time:	  301169	Treatment Began:	  303503	Treatment Lasted:	  260	Total Time In Hospital:	    2594
+ID:	 264	Ailment:	   BLEED	Arrival Time:	  301662	Treatment Began:	  303763	Treatment Lasted:	  184	Total Time In Hospital:	    2285
+ID:	 265	Ailment:	   BLEED	Arrival Time:	  305750	Treatment Began:	  305750	Treatment Lasted:	  201	Total Time In Hospital:	     201
+ID:	 266	Ailment:	     GAS	Arrival Time:	  307935	Treatment Began:	  307935	Treatment Lasted:	  936	Total Time In Hospital:	     936
+ID:	 267	Ailment:	   BLEED	Arrival Time:	  309513	Treatment Began:	  309513	Treatment Lasted:	   98	Total Time In Hospital:	      98
+ID:	 268	Ailment:	   HEART	Arrival Time:	  310066	Treatment Began:	  310066	Treatment Lasted:	  491	Total Time In Hospital:	     491
+ID:	 269	Ailment:	   BLEED	Arrival Time:	  310324	Treatment Began:	  310557	Treatment Lasted:	 1669	Total Time In Hospital:	    1902
+ID:	 270	Ailment:	   HEART	Arrival Time:	  310930	Treatment Began:	  312226	Treatment Lasted:	 2413	Total Time In Hospital:	    3709
+ID:	 272	Ailment:	   HEART	Arrival Time:	  313166	Treatment Began:	  314639	Treatment Lasted:	  744	Total Time In Hospital:	    2217
+ID:	 273	Ailment:	   HEART	Arrival Time:	  313847	Treatment Began:	  315383	Treatment Lasted:	  151	Total Time In Hospital:	    1687
+ID:	 274	Ailment:	     GAS	Arrival Time:	  314151	Treatment Began:	  315534	Treatment Lasted:	  715	Total Time In Hospital:	    2098
+ID:	 275	Ailment:	   HEART	Arrival Time:	  315733	Treatment Began:	  316249	Treatment Lasted:	 1318	Total Time In Hospital:	    1834
+ID:	 276	Ailment:	   HEART	Arrival Time:	  316770	Treatment Began:	  317567	Treatment Lasted:	 1263	Total Time In Hospital:	    2060
+ID:	 277	Ailment:	   BLEED	Arrival Time:	  318908	Treatment Began:	  318908	Treatment Lasted:	  309	Total Time In Hospital:	     309
+ID:	 278	Ailment:	   BLEED	Arrival Time:	  319520	Treatment Began:	  319520	Treatment Lasted:	   78	Total Time In Hospital:	      78
+ID:	 279	Ailment:	   HEART	Arrival Time:	  319715	Treatment Began:	  319715	Treatment Lasted:	  203	Total Time In Hospital:	     203
+ID:	 280	Ailment:	   HEART	Arrival Time:	  320018	Treatment Began:	  320018	Treatment Lasted:	  638	Total Time In Hospital:	     638
+ID:	 281	Ailment:	   BLEED	Arrival Time:	  323017	Treatment Began:	  323017	Treatment Lasted:	 1445	Total Time In Hospital:	    1445
+ID:	 282	Ailment:	   BLEED	Arrival Time:	  323606	Treatment Began:	  324462	Treatment Lasted:	   95	Total Time In Hospital:	     951
+ID:	 283	Ailment:	   HEART	Arrival Time:	  325495	Treatment Began:	  325495	Treatment Lasted:	  961	Total Time In Hospital:	     961
+ID:	 284	Ailment:	   HEART	Arrival Time:	  326415	Treatment Began:	  326456	Treatment Lasted:	 3573	Total Time In Hospital:	    3614
+ID:	 286	Ailment:	   BLEED	Arrival Time:	  330584	Treatment Began:	  330584	Treatment Lasted:	  544	Total Time In Hospital:	     544
+ID:	 287	Ailment:	   BLEED	Arrival Time:	  331091	Treatment Began:	  331128	Treatment Lasted:	  509	Total Time In Hospital:	     546
+ID:	 288	Ailment:	   BLEED	Arrival Time:	  331506	Treatment Began:	  331637	Treatment Lasted:	  270	Total Time In Hospital:	     401
+ID:	 289	Ailment:	   HEART	Arrival Time:	  331997	Treatment Began:	  331997	Treatment Lasted:	  417	Total Time In Hospital:	     417
+ID:	 290	Ailment:	     GAS	Arrival Time:	  332159	Treatment Began:	  332414	Treatment Lasted:	  303	Total Time In Hospital:	     558
+ID:	 291	Ailment:	   HEART	Arrival Time:	  332714	Treatment Began:	  332717	Treatment Lasted:	 1086	Total Time In Hospital:	    1089
+ID:	 292	Ailment:	   HEART	Arrival Time:	  332991	Treatment Began:	  333803	Treatment Lasted:	 1829	Total Time In Hospital:	    2641
+ID:	 295	Ailment:	   HEART	Arrival Time:	  335482	Treatment Began:	  335632	Treatment Lasted:	 1405	Total Time In Hospital:	    1555
+ID:	 294	Ailment:	   BLEED	Arrival Time:	  333856	Treatment Began:	  337037	Treatment Lasted:	  240	Total Time In Hospital:	    3421
+ID:	 296	Ailment:	   BLEED	Arrival Time:	  336579	Treatment Began:	  337277	Treatment Lasted:	   53	Total Time In Hospital:	     751
+ID:	 297	Ailment:	     GAS	Arrival Time:	  336623	Treatment Began:	  337330	Treatment Lasted:	  374	Total Time In Hospital:	    1081
+ID:	 298	Ailment:	   BLEED	Arrival Time:	  342304	Treatment Began:	  342304	Treatment Lasted:	  217	Total Time In Hospital:	     217
+ID:	 299	Ailment:	   BLEED	Arrival Time:	  344652	Treatment Began:	  344652	Treatment Lasted:	  899	Total Time In Hospital:	     899
+ID:	 300	Ailment:	   BLEED	Arrival Time:	  348910	Treatment Began:	  348910	Treatment Lasted:	   95	Total Time In Hospital:	      95
+ID:	 301	Ailment:	   BLEED	Arrival Time:	  354470	Treatment Began:	  354470	Treatment Lasted:	  576	Total Time In Hospital:	     576
+ID:	 302	Ailment:	   HEART	Arrival Time:	  356798	Treatment Began:	  356798	Treatment Lasted:	  512	Total Time In Hospital:	     512
+ID:	 303	Ailment:	   HEART	Arrival Time:	  358678	Treatment Began:	  358678	Treatment Lasted:	  208	Total Time In Hospital:	     208
+ID:	 304	Ailment:	   BLEED	Arrival Time:	  358950	Treatment Began:	  358950	Treatment Lasted:	  155	Total Time In Hospital:	     155
+ID:	 305	Ailment:	   BLEED	Arrival Time:	  359158	Treatment Began:	  359158	Treatment Lasted:	  525	Total Time In Hospital:	     525
+1 patients left in the hospital when shut down
+
+THE GREAT AMERICAN MEDICAL SYSTEM SIMULATION
+This run is for 2 doctors on staff
+
+Losses of Gastro:	0
+Losses of Heart:	2
+Losses of Bleeders:	9
+Total Losses:	11
+
+Number of Gastro Serviced:	59
+Number of Hearts Serviced:	110
+Number of Bleeders Serviced:	136
+Total Serviced:	305
+
+Average time Gastro spend in queue:	572
+Average time Heart Patients spend in queue:	257
+Average time Bleeders spend in queue:	725
+Average Time any patient spent in queue:	531
+
+Patients Lost during the simulation
+ID:	  28	Ailment:	   BLEED	Arrival Time:	   31635	Death Time:	   35535	Total Time In Hospital:	    3900
+ID:	 103	Ailment:	   BLEED	Arrival Time:	  114828	Death Time:	  118728	Total Time In Hospital:	    3900
+ID:	 104	Ailment:	   BLEED	Arrival Time:	  115444	Death Time:	  119344	Total Time In Hospital:	    3900
+ID:	 106	Ailment:	   BLEED	Arrival Time:	  115920	Death Time:	  119819	Total Time In Hospital:	    3899
+ID:	 147	Ailment:	   HEART	Arrival Time:	  167884	Death Time:	  169983	Total Time In Hospital:	    2099
+ID:	 256	Ailment:	   BLEED	Arrival Time:	  295126	Death Time:	  299026	Total Time In Hospital:	    3900
+ID:	 271	Ailment:	   BLEED	Arrival Time:	  311417	Death Time:	  315317	Total Time In Hospital:	    3900
+ID:	 272	Ailment:	   BLEED	Arrival Time:	  312138	Death Time:	  316038	Total Time In Hospital:	    3900
+ID:	 278	Ailment:	   HEART	Arrival Time:	  314096	Death Time:	  316195	Total Time In Hospital:	    2099
+ID:	 273	Ailment:	   BLEED	Arrival Time:	  313025	Death Time:	  316924	Total Time In Hospital:	    3899
+ID:	 279	Ailment:	   BLEED	Arrival Time:	  314675	Death Time:	  318575	Total Time In Hospital:	    3900
+Patients Treated during the simulation
+ID:	   1	Ailment:	   BLEED	Arrival Time:	       0	Treatment Began:	       1	Treatment Lasted:	  138	Total Time In Hospital:	     139
+ID:	   2	Ailment:	   HEART	Arrival Time:	    1094	Treatment Began:	    1094	Treatment Lasted:	 1842	Total Time In Hospital:	    1842
+ID:	   3	Ailment:	   HEART	Arrival Time:	    2675	Treatment Began:	    2936	Treatment Lasted:	  225	Total Time In Hospital:	     486
+ID:	   4	Ailment:	   HEART	Arrival Time:	    3123	Treatment Began:	    3161	Treatment Lasted:	  440	Total Time In Hospital:	     478
+ID:	   5	Ailment:	   HEART	Arrival Time:	    6226	Treatment Began:	    6226	Treatment Lasted:	  374	Total Time In Hospital:	     374
+ID:	   6	Ailment:	   HEART	Arrival Time:	    7147	Treatment Began:	    7147	Treatment Lasted:	  685	Total Time In Hospital:	     685
+ID:	   7	Ailment:	   HEART	Arrival Time:	    7425	Treatment Began:	    7832	Treatment Lasted:	 1477	Total Time In Hospital:	    1884
+ID:	   8	Ailment:	   BLEED	Arrival Time:	    7687	Treatment Began:	    9309	Treatment Lasted:	  802	Total Time In Hospital:	    2424
+ID:	  13	Ailment:	   HEART	Arrival Time:	    9878	Treatment Began:	   10111	Treatment Lasted:	  789	Total Time In Hospital:	    1022
+ID:	  12	Ailment:	     GAS	Arrival Time:	    8906	Treatment Began:	   10900	Treatment Lasted:	  426	Total Time In Hospital:	    2420
+ID:	   9	Ailment:	     GAS	Arrival Time:	    8221	Treatment Began:	   11326	Treatment Lasted:	   40	Total Time In Hospital:	    3145
+ID:	  10	Ailment:	   BLEED	Arrival Time:	    8475	Treatment Began:	   11366	Treatment Lasted:	    6	Total Time In Hospital:	    2897
+ID:	  11	Ailment:	   BLEED	Arrival Time:	    8647	Treatment Began:	   11372	Treatment Lasted:	   41	Total Time In Hospital:	    2766
+ID:	  14	Ailment:	   HEART	Arrival Time:	   13593	Treatment Began:	   13593	Treatment Lasted:	  213	Total Time In Hospital:	     213
+ID:	  15	Ailment:	   HEART	Arrival Time:	   14451	Treatment Began:	   14451	Treatment Lasted:	 3324	Total Time In Hospital:	    3324
+ID:	  16	Ailment:	   HEART	Arrival Time:	   18368	Treatment Began:	   18368	Treatment Lasted:	  511	Total Time In Hospital:	     511
+ID:	  17	Ailment:	   HEART	Arrival Time:	   19372	Treatment Began:	   19372	Treatment Lasted:	  506	Total Time In Hospital:	     506
+ID:	  18	Ailment:	   HEART	Arrival Time:	   20102	Treatment Began:	   20102	Treatment Lasted:	 2134	Total Time In Hospital:	    2134
+ID:	  20	Ailment:	   HEART	Arrival Time:	   21034	Treatment Began:	   22236	Treatment Lasted:	 1480	Total Time In Hospital:	    2682
+ID:	  19	Ailment:	   BLEED	Arrival Time:	   20584	Treatment Began:	   23716	Treatment Lasted:	  179	Total Time In Hospital:	    3311
+ID:	  21	Ailment:	   HEART	Arrival Time:	   24161	Treatment Began:	   24161	Treatment Lasted:	  409	Total Time In Hospital:	     409
+ID:	  22	Ailment:	   HEART	Arrival Time:	   25019	Treatment Began:	   25019	Treatment Lasted:	 1040	Total Time In Hospital:	    1040
+ID:	  23	Ailment:	     GAS	Arrival Time:	   26470	Treatment Began:	   26470	Treatment Lasted:	 1846	Total Time In Hospital:	    1846
+ID:	  24	Ailment:	   BLEED	Arrival Time:	   29330	Treatment Began:	   29330	Treatment Lasted:	  148	Total Time In Hospital:	     148
+ID:	  25	Ailment:	   HEART	Arrival Time:	   29762	Treatment Began:	   29762	Treatment Lasted:	  834	Total Time In Hospital:	     834
+ID:	  26	Ailment:	   HEART	Arrival Time:	   30507	Treatment Began:	   30596	Treatment Lasted:	 1694	Total Time In Hospital:	    1783
+ID:	  27	Ailment:	   BLEED	Arrival Time:	   31413	Treatment Began:	   32290	Treatment Lasted:	 1215	Total Time In Hospital:	    2092
+ID:	  31	Ailment:	   HEART	Arrival Time:	   33251	Treatment Began:	   33505	Treatment Lasted:	  737	Total Time In Hospital:	     991
+ID:	  30	Ailment:	   BLEED	Arrival Time:	   32105	Treatment Began:	   34242	Treatment Lasted:	 1022	Total Time In Hospital:	    3159
+ID:	  29	Ailment:	     GAS	Arrival Time:	   31901	Treatment Began:	   35264	Treatment Lasted:	  188	Total Time In Hospital:	    3551
+ID:	  33	Ailment:	   HEART	Arrival Time:	   35306	Treatment Began:	   35452	Treatment Lasted:	  714	Total Time In Hospital:	     860
+ID:	  32	Ailment:	     GAS	Arrival Time:	   34950	Treatment Began:	   36166	Treatment Lasted:	  606	Total Time In Hospital:	    1822
+ID:	  34	Ailment:	   BLEED	Arrival Time:	   36330	Treatment Began:	   36772	Treatment Lasted:	  116	Total Time In Hospital:	     558
+ID:	  35	Ailment:	   BLEED	Arrival Time:	   37187	Treatment Began:	   37187	Treatment Lasted:	  320	Total Time In Hospital:	     320
+ID:	  36	Ailment:	   BLEED	Arrival Time:	   37813	Treatment Began:	   37813	Treatment Lasted:	  533	Total Time In Hospital:	     533
+ID:	  37	Ailment:	   HEART	Arrival Time:	   39776	Treatment Began:	   39776	Treatment Lasted:	 1191	Total Time In Hospital:	    1191
+ID:	  39	Ailment:	   HEART	Arrival Time:	   40133	Treatment Began:	   40967	Treatment Lasted:	  449	Total Time In Hospital:	    1283
+ID:	  38	Ailment:	     GAS	Arrival Time:	   39972	Treatment Began:	   41416	Treatment Lasted:	   71	Total Time In Hospital:	    1515
+ID:	  40	Ailment:	   BLEED	Arrival Time:	   40298	Treatment Began:	   41487	Treatment Lasted:	   78	Total Time In Hospital:	    1267
+ID:	  41	Ailment:	   BLEED	Arrival Time:	   42948	Treatment Began:	   42948	Treatment Lasted:	  808	Total Time In Hospital:	     808
+ID:	  42	Ailment:	   BLEED	Arrival Time:	   45722	Treatment Began:	   45722	Treatment Lasted:	 1032	Total Time In Hospital:	    1032
+ID:	  43	Ailment:	   BLEED	Arrival Time:	   46191	Treatment Began:	   46754	Treatment Lasted:	  210	Total Time In Hospital:	     773
+ID:	  44	Ailment:	   BLEED	Arrival Time:	   47799	Treatment Began:	   47799	Treatment Lasted:	  496	Total Time In Hospital:	     496
+ID:	  45	Ailment:	   HEART	Arrival Time:	   48592	Treatment Began:	   48592	Treatment Lasted:	   49	Total Time In Hospital:	      49
+ID:	  46	Ailment:	   BLEED	Arrival Time:	   49035	Treatment Began:	   49035	Treatment Lasted:	  564	Total Time In Hospital:	     564
+ID:	  47	Ailment:	     GAS	Arrival Time:	   50246	Treatment Began:	   50246	Treatment Lasted:	   54	Total Time In Hospital:	      54
+ID:	  48	Ailment:	   HEART	Arrival Time:	   51536	Treatment Began:	   51536	Treatment Lasted:	  828	Total Time In Hospital:	     828
+ID:	  49	Ailment:	   BLEED	Arrival Time:	   53222	Treatment Began:	   53222	Treatment Lasted:	  118	Total Time In Hospital:	     118
+ID:	  50	Ailment:	   BLEED	Arrival Time:	   54649	Treatment Began:	   54649	Treatment Lasted:	  280	Total Time In Hospital:	     280
+ID:	  51	Ailment:	   BLEED	Arrival Time:	   56366	Treatment Began:	   56366	Treatment Lasted:	  352	Total Time In Hospital:	     352
+ID:	  52	Ailment:	     GAS	Arrival Time:	   56889	Treatment Began:	   56889	Treatment Lasted:	  286	Total Time In Hospital:	     286
+ID:	  53	Ailment:	   BLEED	Arrival Time:	   56913	Treatment Began:	   57175	Treatment Lasted:	   18	Total Time In Hospital:	     280
+ID:	  54	Ailment:	   BLEED	Arrival Time:	   59088	Treatment Began:	   59088	Treatment Lasted:	  238	Total Time In Hospital:	     238
+ID:	  55	Ailment:	     GAS	Arrival Time:	   59949	Treatment Began:	   59949	Treatment Lasted:	   44	Total Time In Hospital:	      44
+ID:	  56	Ailment:	   HEART	Arrival Time:	   59969	Treatment Began:	   59993	Treatment Lasted:	  487	Total Time In Hospital:	     511
+ID:	  57	Ailment:	   BLEED	Arrival Time:	   60165	Treatment Began:	   60480	Treatment Lasted:	  619	Total Time In Hospital:	     934
+ID:	  58	Ailment:	   BLEED	Arrival Time:	   61947	Treatment Began:	   61947	Treatment Lasted:	   33	Total Time In Hospital:	      33
+ID:	  59	Ailment:	   HEART	Arrival Time:	   62918	Treatment Began:	   62918	Treatment Lasted:	   58	Total Time In Hospital:	      58
+ID:	  60	Ailment:	   BLEED	Arrival Time:	   63263	Treatment Began:	   63263	Treatment Lasted:	  727	Total Time In Hospital:	     727
+ID:	  61	Ailment:	     GAS	Arrival Time:	   63568	Treatment Began:	   63990	Treatment Lasted:	  233	Total Time In Hospital:	     655
+ID:	  62	Ailment:	   HEART	Arrival Time:	   65410	Treatment Began:	   65410	Treatment Lasted:	 1493	Total Time In Hospital:	    1493
+ID:	  63	Ailment:	     GAS	Arrival Time:	   66174	Treatment Began:	   66903	Treatment Lasted:	  280	Total Time In Hospital:	    1009
+ID:	  64	Ailment:	   BLEED	Arrival Time:	   74766	Treatment Began:	   74766	Treatment Lasted:	   81	Total Time In Hospital:	      81
+ID:	  65	Ailment:	   BLEED	Arrival Time:	   75270	Treatment Began:	   75270	Treatment Lasted:	  451	Total Time In Hospital:	     451
+ID:	  66	Ailment:	   BLEED	Arrival Time:	   79283	Treatment Began:	   79283	Treatment Lasted:	  330	Total Time In Hospital:	     330
+ID:	  67	Ailment:	   BLEED	Arrival Time:	   79529	Treatment Began:	   79613	Treatment Lasted:	   23	Total Time In Hospital:	     107
+ID:	  68	Ailment:	   HEART	Arrival Time:	   79654	Treatment Began:	   79654	Treatment Lasted:	  175	Total Time In Hospital:	     175
+ID:	  69	Ailment:	   HEART	Arrival Time:	   80455	Treatment Began:	   80455	Treatment Lasted:	  161	Total Time In Hospital:	     161
+ID:	  70	Ailment:	   BLEED	Arrival Time:	   80459	Treatment Began:	   80616	Treatment Lasted:	   42	Total Time In Hospital:	     199
+ID:	  71	Ailment:	   BLEED	Arrival Time:	   80877	Treatment Began:	   80877	Treatment Lasted:	  404	Total Time In Hospital:	     404
+ID:	  72	Ailment:	     GAS	Arrival Time:	   81882	Treatment Began:	   81882	Treatment Lasted:	  780	Total Time In Hospital:	     780
+ID:	  73	Ailment:	     GAS	Arrival Time:	   82438	Treatment Began:	   82662	Treatment Lasted:	  124	Total Time In Hospital:	     348
+ID:	  74	Ailment:	   BLEED	Arrival Time:	   83677	Treatment Began:	   83677	Treatment Lasted:	  805	Total Time In Hospital:	     805
+ID:	  75	Ailment:	   BLEED	Arrival Time:	   84104	Treatment Began:	   84482	Treatment Lasted:	  106	Total Time In Hospital:	     484
+ID:	  76	Ailment:	   HEART	Arrival Time:	   84685	Treatment Began:	   84685	Treatment Lasted:	   86	Total Time In Hospital:	      86
+ID:	  77	Ailment:	     GAS	Arrival Time:	   84772	Treatment Began:	   84772	Treatment Lasted:	  158	Total Time In Hospital:	     158
+ID:	  78	Ailment:	   BLEED	Arrival Time:	   87302	Treatment Began:	   87302	Treatment Lasted:	  316	Total Time In Hospital:	     316
+ID:	  79	Ailment:	   BLEED	Arrival Time:	   87537	Treatment Began:	   87618	Treatment Lasted:	   81	Total Time In Hospital:	     162
+ID:	  80	Ailment:	   HEART	Arrival Time:	   88031	Treatment Began:	   88031	Treatment Lasted:	  506	Total Time In Hospital:	     506
+ID:	  81	Ailment:	   HEART	Arrival Time:	   88877	Treatment Began:	   88877	Treatment Lasted:	  126	Total Time In Hospital:	     126
+ID:	  82	Ailment:	   HEART	Arrival Time:	   89272	Treatment Began:	   89272	Treatment Lasted:	  606	Total Time In Hospital:	     606
+ID:	  83	Ailment:	   HEART	Arrival Time:	   89421	Treatment Began:	   89878	Treatment Lasted:	  713	Total Time In Hospital:	    1170
+ID:	  84	Ailment:	   BLEED	Arrival Time:	   90388	Treatment Began:	   90591	Treatment Lasted:	  161	Total Time In Hospital:	     364
+ID:	  85	Ailment:	   HEART	Arrival Time:	   91496	Treatment Began:	   91496	Treatment Lasted:	 1493	Total Time In Hospital:	    1493
+ID:	  86	Ailment:	     GAS	Arrival Time:	   93962	Treatment Began:	   93962	Treatment Lasted:	  525	Total Time In Hospital:	     525
+ID:	  87	Ailment:	   HEART	Arrival Time:	   95090	Treatment Began:	   95090	Treatment Lasted:	 1384	Total Time In Hospital:	    1384
+ID:	  89	Ailment:	   HEART	Arrival Time:	   96421	Treatment Began:	   96474	Treatment Lasted:	 1072	Total Time In Hospital:	    1125
+ID:	  88	Ailment:	   BLEED	Arrival Time:	   96159	Treatment Began:	   97546	Treatment Lasted:	  182	Total Time In Hospital:	    1569
+ID:	  91	Ailment:	   HEART	Arrival Time:	   97664	Treatment Began:	   97728	Treatment Lasted:	  592	Total Time In Hospital:	     656
+ID:	  90	Ailment:	   BLEED	Arrival Time:	   97462	Treatment Began:	   98320	Treatment Lasted:	  168	Total Time In Hospital:	    1026
+ID:	  93	Ailment:	   HEART	Arrival Time:	   98384	Treatment Began:	   98488	Treatment Lasted:	  493	Total Time In Hospital:	     597
+ID:	  92	Ailment:	   BLEED	Arrival Time:	   98012	Treatment Began:	   98981	Treatment Lasted:	  207	Total Time In Hospital:	    1176
+ID:	  94	Ailment:	   BLEED	Arrival Time:	   98486	Treatment Began:	   99188	Treatment Lasted:	  335	Total Time In Hospital:	    1037
+ID:	  95	Ailment:	   BLEED	Arrival Time:	  100105	Treatment Began:	  100105	Treatment Lasted:	  273	Total Time In Hospital:	     273
+ID:	  96	Ailment:	   BLEED	Arrival Time:	  102074	Treatment Began:	  102074	Treatment Lasted:	   79	Total Time In Hospital:	      79
+ID:	  97	Ailment:	   BLEED	Arrival Time:	  103072	Treatment Began:	  103072	Treatment Lasted:	  161	Total Time In Hospital:	     161
+ID:	  98	Ailment:	   BLEED	Arrival Time:	  109243	Treatment Began:	  109243	Treatment Lasted:	  530	Total Time In Hospital:	     530
+ID:	  99	Ailment:	   HEART	Arrival Time:	  109554	Treatment Began:	  109773	Treatment Lasted:	 1952	Total Time In Hospital:	    2171
+ID:	 100	Ailment:	     GAS	Arrival Time:	  111258	Treatment Began:	  111725	Treatment Lasted:	 1441	Total Time In Hospital:	    1908
+ID:	 101	Ailment:	   BLEED	Arrival Time:	  113017	Treatment Began:	  113166	Treatment Lasted:	  377	Total Time In Hospital:	     526
+ID:	 102	Ailment:	   HEART	Arrival Time:	  113774	Treatment Began:	  113774	Treatment Lasted:	 5320	Total Time In Hospital:	    5320
+ID:	 105	Ailment:	   BLEED	Arrival Time:	  115901	Treatment Began:	  119094	Treatment Lasted:	  729	Total Time In Hospital:	    3922
+ID:	 109	Ailment:	   BLEED	Arrival Time:	  117871	Treatment Began:	  119823	Treatment Lasted:	  560	Total Time In Hospital:	    2512
+ID:	 108	Ailment:	   BLEED	Arrival Time:	  117608	Treatment Began:	  120383	Treatment Lasted:	  350	Total Time In Hospital:	    3125
+ID:	 107	Ailment:	     GAS	Arrival Time:	  116468	Treatment Began:	  120733	Treatment Lasted:	  116	Total Time In Hospital:	    4381
+ID:	 110	Ailment:	   BLEED	Arrival Time:	  118725	Treatment Began:	  120849	Treatment Lasted:	  279	Total Time In Hospital:	    2403
+ID:	 111	Ailment:	   BLEED	Arrival Time:	  121574	Treatment Began:	  121574	Treatment Lasted:	   32	Total Time In Hospital:	      32
+ID:	 112	Ailment:	   HEART	Arrival Time:	  121770	Treatment Began:	  121770	Treatment Lasted:	  833	Total Time In Hospital:	     833
+ID:	 113	Ailment:	   BLEED	Arrival Time:	  125301	Treatment Began:	  125301	Treatment Lasted:	  164	Total Time In Hospital:	     164
+ID:	 114	Ailment:	     GAS	Arrival Time:	  125427	Treatment Began:	  125465	Treatment Lasted:	  200	Total Time In Hospital:	     238
+ID:	 115	Ailment:	   BLEED	Arrival Time:	  125490	Treatment Began:	  125665	Treatment Lasted:	   30	Total Time In Hospital:	     205
+ID:	 116	Ailment:	   BLEED	Arrival Time:	  125755	Treatment Began:	  125755	Treatment Lasted:	  651	Total Time In Hospital:	     651
+ID:	 117	Ailment:	   HEART	Arrival Time:	  127659	Treatment Began:	  127659	Treatment Lasted:	   97	Total Time In Hospital:	      97
+ID:	 118	Ailment:	   BLEED	Arrival Time:	  127685	Treatment Began:	  127756	Treatment Lasted:	  385	Total Time In Hospital:	     456
+ID:	 119	Ailment:	     GAS	Arrival Time:	  128153	Treatment Began:	  128153	Treatment Lasted:	   47	Total Time In Hospital:	      47
+ID:	 120	Ailment:	     GAS	Arrival Time:	  131444	Treatment Began:	  131444	Treatment Lasted:	  301	Total Time In Hospital:	     301
+ID:	 121	Ailment:	   BLEED	Arrival Time:	  134120	Treatment Began:	  134120	Treatment Lasted:	   66	Total Time In Hospital:	      66
+ID:	 122	Ailment:	     GAS	Arrival Time:	  136968	Treatment Began:	  136968	Treatment Lasted:	  207	Total Time In Hospital:	     207
+ID:	 123	Ailment:	   BLEED	Arrival Time:	  137081	Treatment Began:	  137175	Treatment Lasted:	 1234	Total Time In Hospital:	    1328
+ID:	 124	Ailment:	   BLEED	Arrival Time:	  137192	Treatment Began:	  138409	Treatment Lasted:	  222	Total Time In Hospital:	    1439
+ID:	 125	Ailment:	   HEART	Arrival Time:	  139300	Treatment Began:	  139300	Treatment Lasted:	 5626	Total Time In Hospital:	    5626
+ID:	 126	Ailment:	   BLEED	Arrival Time:	  142215	Treatment Began:	  144926	Treatment Lasted:	  781	Total Time In Hospital:	    3492
+ID:	 127	Ailment:	     GAS	Arrival Time:	  144245	Treatment Began:	  145707	Treatment Lasted:	  219	Total Time In Hospital:	    1681
+ID:	 128	Ailment:	   HEART	Arrival Time:	  147450	Treatment Began:	  147450	Treatment Lasted:	  233	Total Time In Hospital:	     233
+ID:	 129	Ailment:	   HEART	Arrival Time:	  148322	Treatment Began:	  148322	Treatment Lasted:	  524	Total Time In Hospital:	     524
+ID:	 130	Ailment:	   BLEED	Arrival Time:	  148609	Treatment Began:	  148846	Treatment Lasted:	  246	Total Time In Hospital:	     483
+ID:	 131	Ailment:	   BLEED	Arrival Time:	  151705	Treatment Began:	  151705	Treatment Lasted:	   11	Total Time In Hospital:	      11
+ID:	 132	Ailment:	   BLEED	Arrival Time:	  154795	Treatment Began:	  154795	Treatment Lasted:	  158	Total Time In Hospital:	     158
+ID:	 133	Ailment:	   HEART	Arrival Time:	  157100	Treatment Began:	  157100	Treatment Lasted:	  422	Total Time In Hospital:	     422
+ID:	 134	Ailment:	   BLEED	Arrival Time:	  157319	Treatment Began:	  157522	Treatment Lasted:	   30	Total Time In Hospital:	     233
+ID:	 135	Ailment:	     GAS	Arrival Time:	  157366	Treatment Began:	  157552	Treatment Lasted:	  762	Total Time In Hospital:	     948
+ID:	 136	Ailment:	   HEART	Arrival Time:	  157959	Treatment Began:	  158314	Treatment Lasted:	 1106	Total Time In Hospital:	    1461
+ID:	 137	Ailment:	   HEART	Arrival Time:	  158623	Treatment Began:	  159420	Treatment Lasted:	 1115	Total Time In Hospital:	    1912
+ID:	 138	Ailment:	     GAS	Arrival Time:	  161412	Treatment Began:	  161412	Treatment Lasted:	  344	Total Time In Hospital:	     344
+ID:	 139	Ailment:	     GAS	Arrival Time:	  162632	Treatment Began:	  162632	Treatment Lasted:	  481	Total Time In Hospital:	     481
+ID:	 140	Ailment:	     GAS	Arrival Time:	  163419	Treatment Began:	  163419	Treatment Lasted:	   74	Total Time In Hospital:	      74
+ID:	 141	Ailment:	     GAS	Arrival Time:	  163526	Treatment Began:	  163526	Treatment Lasted:	  592	Total Time In Hospital:	     592
+ID:	 142	Ailment:	     GAS	Arrival Time:	  164447	Treatment Began:	  164447	Treatment Lasted:	 1936	Total Time In Hospital:	    1936
+ID:	 143	Ailment:	     GAS	Arrival Time:	  164844	Treatment Began:	  166383	Treatment Lasted:	 1166	Total Time In Hospital:	    2705
+ID:	 144	Ailment:	   HEART	Arrival Time:	  166805	Treatment Began:	  167549	Treatment Lasted:	   41	Total Time In Hospital:	     785
+ID:	 145	Ailment:	   HEART	Arrival Time:	  167312	Treatment Began:	  167590	Treatment Lasted:	 1185	Total Time In Hospital:	    1463
+ID:	 146	Ailment:	   HEART	Arrival Time:	  167486	Treatment Began:	  168775	Treatment Lasted:	 1505	Total Time In Hospital:	    2794
+ID:	 148	Ailment:	   HEART	Arrival Time:	  169810	Treatment Began:	  170280	Treatment Lasted:	 1131	Total Time In Hospital:	    1601
+ID:	 149	Ailment:	   BLEED	Arrival Time:	  170070	Treatment Began:	  171411	Treatment Lasted:	   92	Total Time In Hospital:	    1433
+ID:	 150	Ailment:	   BLEED	Arrival Time:	  171132	Treatment Began:	  171503	Treatment Lasted:	   49	Total Time In Hospital:	     420
+ID:	 151	Ailment:	   BLEED	Arrival Time:	  172206	Treatment Began:	  172206	Treatment Lasted:	   87	Total Time In Hospital:	      87
+ID:	 152	Ailment:	   BLEED	Arrival Time:	  176068	Treatment Began:	  176068	Treatment Lasted:	  179	Total Time In Hospital:	     179
+ID:	 153	Ailment:	   BLEED	Arrival Time:	  176581	Treatment Began:	  176581	Treatment Lasted:	   76	Total Time In Hospital:	      76
+ID:	 154	Ailment:	   BLEED	Arrival Time:	  178081	Treatment Began:	  178081	Treatment Lasted:	   61	Total Time In Hospital:	      61
+ID:	 155	Ailment:	     GAS	Arrival Time:	  179050	Treatment Began:	  179050	Treatment Lasted:	 1072	Total Time In Hospital:	    1072
+ID:	 157	Ailment:	   HEART	Arrival Time:	  179572	Treatment Began:	  180122	Treatment Lasted:	  192	Total Time In Hospital:	     742
+ID:	 158	Ailment:	   HEART	Arrival Time:	  180171	Treatment Began:	  180314	Treatment Lasted:	  150	Total Time In Hospital:	     293
+ID:	 156	Ailment:	   BLEED	Arrival Time:	  179462	Treatment Began:	  180464	Treatment Lasted:	 1445	Total Time In Hospital:	    2447
+ID:	 161	Ailment:	   HEART	Arrival Time:	  181323	Treatment Began:	  181909	Treatment Lasted:	   91	Total Time In Hospital:	     677
+ID:	 159	Ailment:	     GAS	Arrival Time:	  181082	Treatment Began:	  182000	Treatment Lasted:	  502	Total Time In Hospital:	    1420
+ID:	 163	Ailment:	   BLEED	Arrival Time:	  181672	Treatment Began:	  182502	Treatment Lasted:	  122	Total Time In Hospital:	     952
+ID:	 164	Ailment:	   HEART	Arrival Time:	  182518	Treatment Began:	  182624	Treatment Lasted:	  553	Total Time In Hospital:	     659
+ID:	 162	Ailment:	     GAS	Arrival Time:	  181359	Treatment Began:	  183177	Treatment Lasted:	  716	Total Time In Hospital:	    2534
+ID:	 160	Ailment:	     GAS	Arrival Time:	  181196	Treatment Began:	  183893	Treatment Lasted:	  662	Total Time In Hospital:	    3359
+ID:	 165	Ailment:	   BLEED	Arrival Time:	  184719	Treatment Began:	  184719	Treatment Lasted:	  109	Total Time In Hospital:	     109
+ID:	 166	Ailment:	   BLEED	Arrival Time:	  184740	Treatment Began:	  184828	Treatment Lasted:	   18	Total Time In Hospital:	     106
+ID:	 167	Ailment:	   HEART	Arrival Time:	  187593	Treatment Began:	  187593	Treatment Lasted:	  654	Total Time In Hospital:	     654
+ID:	 168	Ailment:	   BLEED	Arrival Time:	  188622	Treatment Began:	  188622	Treatment Lasted:	    5	Total Time In Hospital:	       5
+ID:	 169	Ailment:	   HEART	Arrival Time:	  190290	Treatment Began:	  190290	Treatment Lasted:	  283	Total Time In Hospital:	     283
+ID:	 170	Ailment:	     GAS	Arrival Time:	  190416	Treatment Began:	  190573	Treatment Lasted:	  975	Total Time In Hospital:	    1132
+ID:	 171	Ailment:	     GAS	Arrival Time:	  191230	Treatment Began:	  191548	Treatment Lasted:	  191	Total Time In Hospital:	     509
+ID:	 172	Ailment:	   BLEED	Arrival Time:	  191737	Treatment Began:	  191739	Treatment Lasted:	  498	Total Time In Hospital:	     500
+ID:	 173	Ailment:	   HEART	Arrival Time:	  193382	Treatment Began:	  193382	Treatment Lasted:	  299	Total Time In Hospital:	     299
+ID:	 174	Ailment:	   BLEED	Arrival Time:	  193710	Treatment Began:	  193710	Treatment Lasted:	  183	Total Time In Hospital:	     183
+ID:	 175	Ailment:	   HEART	Arrival Time:	  193719	Treatment Began:	  193893	Treatment Lasted:	  995	Total Time In Hospital:	    1169
+ID:	 176	Ailment:	   HEART	Arrival Time:	  193964	Treatment Began:	  194888	Treatment Lasted:	  302	Total Time In Hospital:	    1226
+ID:	 177	Ailment:	   HEART	Arrival Time:	  194722	Treatment Began:	  195190	Treatment Lasted:	  483	Total Time In Hospital:	     951
+ID:	 178	Ailment:	   HEART	Arrival Time:	  196384	Treatment Began:	  196384	Treatment Lasted:	 1093	Total Time In Hospital:	    1093
+ID:	 179	Ailment:	   HEART	Arrival Time:	  199038	Treatment Began:	  199038	Treatment Lasted:	  211	Total Time In Hospital:	     211
+ID:	 180	Ailment:	   BLEED	Arrival Time:	  199931	Treatment Began:	  199931	Treatment Lasted:	  240	Total Time In Hospital:	     240
+ID:	 181	Ailment:	   BLEED	Arrival Time:	  202689	Treatment Began:	  202689	Treatment Lasted:	  646	Total Time In Hospital:	     646
+ID:	 182	Ailment:	   BLEED	Arrival Time:	  203963	Treatment Began:	  203963	Treatment Lasted:	    0	Total Time In Hospital:	       0
+ID:	 183	Ailment:	   BLEED	Arrival Time:	  204437	Treatment Began:	  204437	Treatment Lasted:	  547	Total Time In Hospital:	     547
+ID:	 184	Ailment:	   BLEED	Arrival Time:	  204673	Treatment Began:	  204984	Treatment Lasted:	  518	Total Time In Hospital:	     829
+ID:	 185	Ailment:	   BLEED	Arrival Time:	  207224	Treatment Began:	  207224	Treatment Lasted:	  493	Total Time In Hospital:	     493
+ID:	 186	Ailment:	   HEART	Arrival Time:	  209672	Treatment Began:	  209672	Treatment Lasted:	  128	Total Time In Hospital:	     128
+ID:	 187	Ailment:	   HEART	Arrival Time:	  213254	Treatment Began:	  213254	Treatment Lasted:	 1240	Total Time In Hospital:	    1240
+ID:	 188	Ailment:	   BLEED	Arrival Time:	  214224	Treatment Began:	  214494	Treatment Lasted:	   96	Total Time In Hospital:	     366
+ID:	 189	Ailment:	   BLEED	Arrival Time:	  218208	Treatment Began:	  218208	Treatment Lasted:	  679	Total Time In Hospital:	     679
+ID:	 190	Ailment:	   BLEED	Arrival Time:	  220246	Treatment Began:	  220246	Treatment Lasted:	  214	Total Time In Hospital:	     214
+ID:	 191	Ailment:	   HEART	Arrival Time:	  223215	Treatment Began:	  223215	Treatment Lasted:	  594	Total Time In Hospital:	     594
+ID:	 192	Ailment:	   BLEED	Arrival Time:	  225064	Treatment Began:	  225064	Treatment Lasted:	  125	Total Time In Hospital:	     125
+ID:	 193	Ailment:	   BLEED	Arrival Time:	  225159	Treatment Began:	  225189	Treatment Lasted:	  123	Total Time In Hospital:	     153
+ID:	 194	Ailment:	     GAS	Arrival Time:	  225664	Treatment Began:	  225664	Treatment Lasted:	   11	Total Time In Hospital:	      11
+ID:	 195	Ailment:	     GAS	Arrival Time:	  225741	Treatment Began:	  225741	Treatment Lasted:	  827	Total Time In Hospital:	     827
+ID:	 196	Ailment:	   BLEED	Arrival Time:	  226046	Treatment Began:	  226568	Treatment Lasted:	  433	Total Time In Hospital:	     955
+ID:	 197	Ailment:	   HEART	Arrival Time:	  226628	Treatment Began:	  227001	Treatment Lasted:	 1142	Total Time In Hospital:	    1515
+ID:	 198	Ailment:	   HEART	Arrival Time:	  226958	Treatment Began:	  228143	Treatment Lasted:	 1594	Total Time In Hospital:	    2779
+ID:	 199	Ailment:	   BLEED	Arrival Time:	  226965	Treatment Began:	  229737	Treatment Lasted:	  355	Total Time In Hospital:	    3127
+ID:	 200	Ailment:	   HEART	Arrival Time:	  230516	Treatment Began:	  230516	Treatment Lasted:	 1116	Total Time In Hospital:	    1116
+ID:	 201	Ailment:	   BLEED	Arrival Time:	  230588	Treatment Began:	  231632	Treatment Lasted:	   61	Total Time In Hospital:	    1105
+ID:	 202	Ailment:	     GAS	Arrival Time:	  232069	Treatment Began:	  232069	Treatment Lasted:	  648	Total Time In Hospital:	     648
+ID:	 203	Ailment:	   BLEED	Arrival Time:	  232823	Treatment Began:	  232823	Treatment Lasted:	  639	Total Time In Hospital:	     639
+ID:	 204	Ailment:	     GAS	Arrival Time:	  233292	Treatment Began:	  233462	Treatment Lasted:	  410	Total Time In Hospital:	     580
+ID:	 205	Ailment:	   BLEED	Arrival Time:	  233972	Treatment Began:	  233972	Treatment Lasted:	  682	Total Time In Hospital:	     682
+ID:	 206	Ailment:	   BLEED	Arrival Time:	  234308	Treatment Began:	  234654	Treatment Lasted:	   97	Total Time In Hospital:	     443
+ID:	 207	Ailment:	   HEART	Arrival Time:	  234701	Treatment Began:	  234751	Treatment Lasted:	  335	Total Time In Hospital:	     385
+ID:	 208	Ailment:	   BLEED	Arrival Time:	  235625	Treatment Began:	  235625	Treatment Lasted:	   37	Total Time In Hospital:	      37
+ID:	 209	Ailment:	   HEART	Arrival Time:	  236085	Treatment Began:	  236085	Treatment Lasted:	  264	Total Time In Hospital:	     264
+ID:	 210	Ailment:	   BLEED	Arrival Time:	  236707	Treatment Began:	  236707	Treatment Lasted:	  638	Total Time In Hospital:	     638
+ID:	 211	Ailment:	   BLEED	Arrival Time:	  239144	Treatment Began:	  239144	Treatment Lasted:	  170	Total Time In Hospital:	     170
+ID:	 212	Ailment:	   HEART	Arrival Time:	  239299	Treatment Began:	  239314	Treatment Lasted:	 1505	Total Time In Hospital:	    1520
+ID:	 213	Ailment:	   HEART	Arrival Time:	  242723	Treatment Began:	  242723	Treatment Lasted:	  226	Total Time In Hospital:	     226
+ID:	 214	Ailment:	     GAS	Arrival Time:	  242939	Treatment Began:	  242949	Treatment Lasted:	  431	Total Time In Hospital:	     441
+ID:	 215	Ailment:	   BLEED	Arrival Time:	  247724	Treatment Began:	  247724	Treatment Lasted:	   61	Total Time In Hospital:	      61
+ID:	 216	Ailment:	     GAS	Arrival Time:	  249664	Treatment Began:	  249664	Treatment Lasted:	  565	Total Time In Hospital:	     565
+ID:	 217	Ailment:	   BLEED	Arrival Time:	  249919	Treatment Began:	  250229	Treatment Lasted:	  146	Total Time In Hospital:	     456
+ID:	 218	Ailment:	   HEART	Arrival Time:	  250872	Treatment Began:	  250872	Treatment Lasted:	 1087	Total Time In Hospital:	    1087
+ID:	 219	Ailment:	   BLEED	Arrival Time:	  252515	Treatment Began:	  252515	Treatment Lasted:	  179	Total Time In Hospital:	     179
+ID:	 220	Ailment:	   HEART	Arrival Time:	  253457	Treatment Began:	  253457	Treatment Lasted:	 1502	Total Time In Hospital:	    1502
+ID:	 221	Ailment:	   HEART	Arrival Time:	  254316	Treatment Began:	  254959	Treatment Lasted:	  176	Total Time In Hospital:	     819
+ID:	 222	Ailment:	   HEART	Arrival Time:	  257070	Treatment Began:	  257070	Treatment Lasted:	  610	Total Time In Hospital:	     610
+ID:	 223	Ailment:	   HEART	Arrival Time:	  257270	Treatment Began:	  257680	Treatment Lasted:	 3179	Total Time In Hospital:	    3589
+ID:	 224	Ailment:	   BLEED	Arrival Time:	  257950	Treatment Began:	  260859	Treatment Lasted:	  382	Total Time In Hospital:	    3291
+ID:	 225	Ailment:	   HEART	Arrival Time:	  260938	Treatment Began:	  261241	Treatment Lasted:	 1458	Total Time In Hospital:	    1761
+ID:	 226	Ailment:	   HEART	Arrival Time:	  261978	Treatment Began:	  262699	Treatment Lasted:	 1065	Total Time In Hospital:	    1786
+ID:	 227	Ailment:	   BLEED	Arrival Time:	  262426	Treatment Began:	  263764	Treatment Lasted:	  228	Total Time In Hospital:	    1566
+ID:	 228	Ailment:	   HEART	Arrival Time:	  266888	Treatment Began:	  266888	Treatment Lasted:	 1081	Total Time In Hospital:	    1081
+ID:	 229	Ailment:	   HEART	Arrival Time:	  267184	Treatment Began:	  267969	Treatment Lasted:	 1516	Total Time In Hospital:	    2301
+ID:	 230	Ailment:	   HEART	Arrival Time:	  272529	Treatment Began:	  272529	Treatment Lasted:	  823	Total Time In Hospital:	     823
+ID:	 231	Ailment:	   BLEED	Arrival Time:	  274002	Treatment Began:	  274002	Treatment Lasted:	   15	Total Time In Hospital:	      15
+ID:	 232	Ailment:	   BLEED	Arrival Time:	  274223	Treatment Began:	  274223	Treatment Lasted:	   22	Total Time In Hospital:	      22
+ID:	 233	Ailment:	   HEART	Arrival Time:	  275286	Treatment Began:	  275286	Treatment Lasted:	  502	Total Time In Hospital:	     502
+ID:	 234	Ailment:	   BLEED	Arrival Time:	  276559	Treatment Began:	  276559	Treatment Lasted:	  233	Total Time In Hospital:	     233
+ID:	 235	Ailment:	     GAS	Arrival Time:	  277176	Treatment Began:	  277176	Treatment Lasted:	    1	Total Time In Hospital:	       1
+ID:	 236	Ailment:	   HEART	Arrival Time:	  278299	Treatment Began:	  278299	Treatment Lasted:	  486	Total Time In Hospital:	     486
+ID:	 237	Ailment:	   BLEED	Arrival Time:	  278523	Treatment Began:	  278785	Treatment Lasted:	  130	Total Time In Hospital:	     392
+ID:	 238	Ailment:	   HEART	Arrival Time:	  280022	Treatment Began:	  280022	Treatment Lasted:	  833	Total Time In Hospital:	     833
+ID:	 239	Ailment:	   BLEED	Arrival Time:	  281652	Treatment Began:	  281652	Treatment Lasted:	  197	Total Time In Hospital:	     197
+ID:	 240	Ailment:	   BLEED	Arrival Time:	  282419	Treatment Began:	  282419	Treatment Lasted:	   72	Total Time In Hospital:	      72
+ID:	 241	Ailment:	   HEART	Arrival Time:	  283102	Treatment Began:	  283102	Treatment Lasted:	   66	Total Time In Hospital:	      66
+ID:	 242	Ailment:	   BLEED	Arrival Time:	  283651	Treatment Began:	  283651	Treatment Lasted:	  248	Total Time In Hospital:	     248
+ID:	 243	Ailment:	     GAS	Arrival Time:	  285381	Treatment Began:	  285381	Treatment Lasted:	  626	Total Time In Hospital:	     626
+ID:	 244	Ailment:	   HEART	Arrival Time:	  286030	Treatment Began:	  286030	Treatment Lasted:	  399	Total Time In Hospital:	     399
+ID:	 245	Ailment:	   HEART	Arrival Time:	  286710	Treatment Began:	  286710	Treatment Lasted:	   64	Total Time In Hospital:	      64
+ID:	 246	Ailment:	     GAS	Arrival Time:	  289624	Treatment Began:	  289624	Treatment Lasted:	  196	Total Time In Hospital:	     196
+ID:	 247	Ailment:	   HEART	Arrival Time:	  289704	Treatment Began:	  289820	Treatment Lasted:	   74	Total Time In Hospital:	     190
+ID:	 248	Ailment:	   BLEED	Arrival Time:	  290324	Treatment Began:	  290324	Treatment Lasted:	  425	Total Time In Hospital:	     425
+ID:	 249	Ailment:	   HEART	Arrival Time:	  290460	Treatment Began:	  290749	Treatment Lasted:	  831	Total Time In Hospital:	    1120
+ID:	 250	Ailment:	   BLEED	Arrival Time:	  291743	Treatment Began:	  291743	Treatment Lasted:	  258	Total Time In Hospital:	     258
+ID:	 251	Ailment:	   BLEED	Arrival Time:	  292592	Treatment Began:	  292592	Treatment Lasted:	   43	Total Time In Hospital:	      43
+ID:	 252	Ailment:	   BLEED	Arrival Time:	  293028	Treatment Began:	  293028	Treatment Lasted:	  124	Total Time In Hospital:	     124
+ID:	 253	Ailment:	     GAS	Arrival Time:	  293235	Treatment Began:	  293235	Treatment Lasted:	   67	Total Time In Hospital:	      67
+ID:	 254	Ailment:	   BLEED	Arrival Time:	  294033	Treatment Began:	  294033	Treatment Lasted:	   73	Total Time In Hospital:	      73
+ID:	 255	Ailment:	     GAS	Arrival Time:	  295034	Treatment Began:	  295034	Treatment Lasted:	 3118	Total Time In Hospital:	    3118
+ID:	 257	Ailment:	   HEART	Arrival Time:	  298087	Treatment Began:	  298152	Treatment Lasted:	 3112	Total Time In Hospital:	    3177
+ID:	 258	Ailment:	   BLEED	Arrival Time:	  298216	Treatment Began:	  301264	Treatment Lasted:	  507	Total Time In Hospital:	    3555
+ID:	 259	Ailment:	   BLEED	Arrival Time:	  298381	Treatment Began:	  301771	Treatment Lasted:	  723	Total Time In Hospital:	    4113
+ID:	 260	Ailment:	     GAS	Arrival Time:	  301912	Treatment Began:	  302494	Treatment Lasted:	 1084	Total Time In Hospital:	    1666
+ID:	 261	Ailment:	   BLEED	Arrival Time:	  302428	Treatment Began:	  303578	Treatment Lasted:	  146	Total Time In Hospital:	    1296
+ID:	 262	Ailment:	   BLEED	Arrival Time:	  302506	Treatment Began:	  303724	Treatment Lasted:	   39	Total Time In Hospital:	    1257
+ID:	 263	Ailment:	   BLEED	Arrival Time:	  302840	Treatment Began:	  303763	Treatment Lasted:	  197	Total Time In Hospital:	    1120
+ID:	 264	Ailment:	     GAS	Arrival Time:	  304107	Treatment Began:	  304107	Treatment Lasted:	   86	Total Time In Hospital:	      86
+ID:	 265	Ailment:	   HEART	Arrival Time:	  304443	Treatment Began:	  304443	Treatment Lasted:	   22	Total Time In Hospital:	      22
+ID:	 266	Ailment:	   HEART	Arrival Time:	  306560	Treatment Began:	  306560	Treatment Lasted:	  483	Total Time In Hospital:	     483
+ID:	 267	Ailment:	   BLEED	Arrival Time:	  308849	Treatment Began:	  308849	Treatment Lasted:	   29	Total Time In Hospital:	      29
+ID:	 268	Ailment:	     GAS	Arrival Time:	  310428	Treatment Began:	  310428	Treatment Lasted:	 1009	Total Time In Hospital:	    1009
+ID:	 269	Ailment:	   BLEED	Arrival Time:	  310612	Treatment Began:	  311437	Treatment Lasted:	 1383	Total Time In Hospital:	    2208
+ID:	 270	Ailment:	   BLEED	Arrival Time:	  310677	Treatment Began:	  312820	Treatment Lasted:	  420	Total Time In Hospital:	    2563
+ID:	 274	Ailment:	   HEART	Arrival Time:	  313038	Treatment Began:	  313240	Treatment Lasted:	 1177	Total Time In Hospital:	    1379
+ID:	 275	Ailment:	   HEART	Arrival Time:	  313110	Treatment Began:	  314417	Treatment Lasted:	  211	Total Time In Hospital:	    1518
+ID:	 277	Ailment:	   HEART	Arrival Time:	  313730	Treatment Began:	  314628	Treatment Lasted:	 2160	Total Time In Hospital:	    3058
+ID:	 280	Ailment:	   HEART	Arrival Time:	  315404	Treatment Began:	  316788	Treatment Lasted:	  691	Total Time In Hospital:	    2075
+ID:	 281	Ailment:	   BLEED	Arrival Time:	  315556	Treatment Began:	  317479	Treatment Lasted:	  564	Total Time In Hospital:	    2487
+ID:	 276	Ailment:	     GAS	Arrival Time:	  313580	Treatment Began:	  318043	Treatment Lasted:	  554	Total Time In Hospital:	    5017
+ID:	 282	Ailment:	   BLEED	Arrival Time:	  319628	Treatment Began:	  319628	Treatment Lasted:	   66	Total Time In Hospital:	      66
+ID:	 283	Ailment:	   HEART	Arrival Time:	  321070	Treatment Began:	  321070	Treatment Lasted:	  933	Total Time In Hospital:	     933
+ID:	 284	Ailment:	     GAS	Arrival Time:	  322209	Treatment Began:	  322209	Treatment Lasted:	   11	Total Time In Hospital:	      11
+ID:	 285	Ailment:	   BLEED	Arrival Time:	  323315	Treatment Began:	  323315	Treatment Lasted:	   86	Total Time In Hospital:	      86
+ID:	 286	Ailment:	   HEART	Arrival Time:	  325023	Treatment Began:	  325023	Treatment Lasted:	 2481	Total Time In Hospital:	    2481
+ID:	 287	Ailment:	     GAS	Arrival Time:	  326320	Treatment Began:	  327504	Treatment Lasted:	  203	Total Time In Hospital:	    1387
+ID:	 288	Ailment:	   BLEED	Arrival Time:	  328422	Treatment Began:	  328422	Treatment Lasted:	  926	Total Time In Hospital:	     926
+ID:	 289	Ailment:	   BLEED	Arrival Time:	  332452	Treatment Began:	  332452	Treatment Lasted:	  241	Total Time In Hospital:	     241
+ID:	 290	Ailment:	     GAS	Arrival Time:	  334235	Treatment Began:	  334235	Treatment Lasted:	   61	Total Time In Hospital:	      61
+ID:	 291	Ailment:	   BLEED	Arrival Time:	  335209	Treatment Began:	  335209	Treatment Lasted:	   45	Total Time In Hospital:	      45
+ID:	 292	Ailment:	     GAS	Arrival Time:	  336168	Treatment Began:	  336168	Treatment Lasted:	   79	Total Time In Hospital:	      79
+ID:	 293	Ailment:	     GAS	Arrival Time:	  336740	Treatment Began:	  336740	Treatment Lasted:	 1271	Total Time In Hospital:	    1271
+ID:	 294	Ailment:	   HEART	Arrival Time:	  337073	Treatment Began:	  338011	Treatment Lasted:	 2527	Total Time In Hospital:	    3465
+ID:	 295	Ailment:	   BLEED	Arrival Time:	  338119	Treatment Began:	  340538	Treatment Lasted:	  234	Total Time In Hospital:	    2653
+ID:	 296	Ailment:	   BLEED	Arrival Time:	  339455	Treatment Began:	  340772	Treatment Lasted:	  146	Total Time In Hospital:	    1463
+ID:	 297	Ailment:	   BLEED	Arrival Time:	  340434	Treatment Began:	  340918	Treatment Lasted:	  138	Total Time In Hospital:	     622
+ID:	 298	Ailment:	   BLEED	Arrival Time:	  341123	Treatment Began:	  341123	Treatment Lasted:	  172	Total Time In Hospital:	     172
+ID:	 299	Ailment:	   BLEED	Arrival Time:	  341943	Treatment Began:	  341943	Treatment Lasted:	   19	Total Time In Hospital:	      19
+ID:	 300	Ailment:	   BLEED	Arrival Time:	  342681	Treatment Began:	  342681	Treatment Lasted:	   96	Total Time In Hospital:	      96
+ID:	 301	Ailment:	     GAS	Arrival Time:	  344104	Treatment Began:	  344104	Treatment Lasted:	  513	Total Time In Hospital:	     513
+ID:	 302	Ailment:	   BLEED	Arrival Time:	  344233	Treatment Began:	  344617	Treatment Lasted:	  695	Total Time In Hospital:	    1079
+ID:	 303	Ailment:	     GAS	Arrival Time:	  344503	Treatment Began:	  345312	Treatment Lasted:	  204	Total Time In Hospital:	    1013
+ID:	 304	Ailment:	   HEART	Arrival Time:	  346140	Treatment Began:	  346140	Treatment Lasted:	  139	Total Time In Hospital:	     139
+ID:	 305	Ailment:	   BLEED	Arrival Time:	  348763	Treatment Began:	  348763	Treatment Lasted:	 1258	Total Time In Hospital:	    1258
+ID:	 306	Ailment:	   HEART	Arrival Time:	  349310	Treatment Began:	  350021	Treatment Lasted:	   81	Total Time In Hospital:	     792
+ID:	 307	Ailment:	     GAS	Arrival Time:	  351458	Treatment Began:	  351458	Treatment Lasted:	  170	Total Time In Hospital:	     170
+ID:	 308	Ailment:	   HEART	Arrival Time:	  351828	Treatment Began:	  351828	Treatment Lasted:	   35	Total Time In Hospital:	      35
+ID:	 309	Ailment:	   BLEED	Arrival Time:	  352263	Treatment Began:	  352263	Treatment Lasted:	  225	Total Time In Hospital:	     225
+ID:	 310	Ailment:	     GAS	Arrival Time:	  352311	Treatment Began:	  352488	Treatment Lasted:	  811	Total Time In Hospital:	     988
+ID:	 311	Ailment:	   HEART	Arrival Time:	  352580	Treatment Began:	  353299	Treatment Lasted:	 1001	Total Time In Hospital:	    1720
+ID:	 312	Ailment:	   HEART	Arrival Time:	  356004	Treatment Began:	  356004	Treatment Lasted:	 1608	Total Time In Hospital:	    1608
+ID:	 313	Ailment:	   HEART	Arrival Time:	  356219	Treatment Began:	  357612	Treatment Lasted:	 1272	Total Time In Hospital:	    2665
+ID:	 314	Ailment:	   HEART	Arrival Time:	  358042	Treatment Began:	  358884	Treatment Lasted:	  639	Total Time In Hospital:	    1481
+ID:	 315	Ailment:	   BLEED	Arrival Time:	  358240	Treatment Began:	  359523	Treatment Lasted:	    9	Total Time In Hospital:	    1292
+ID:	 316	Ailment:	   HEART	Arrival Time:	  359706	Treatment Began:	  359706	Treatment Lasted:	 1409	Total Time In Hospital:	    1409
+0 patients left in the hospital when shut down
+
+
+Process finished with exit code 0
